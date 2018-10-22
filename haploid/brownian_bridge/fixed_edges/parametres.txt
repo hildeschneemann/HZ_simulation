@@ -1,0 +1,5 @@
+d N mig b n m sig a diff Q U nbS L T1 T2 T3 pas
+
+* 10 20 0.1 5 5 5 0.1 0.3 2 2 0.1 8 -1 1000 0 0 1
+
+
