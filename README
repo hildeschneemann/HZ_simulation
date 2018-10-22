@@ -2,7 +2,7 @@ This repository contains the code to perform simulations of a fisher's stepping 
 
 There are different versions of the simulations:
 diploid/haploid and using either a fitness function based on Fisher's geometric model with the initial diverged state approximated by a brownian bridge, or a simpler fitness function in which all loci are exchangeable, in which fitness depends on the hybrid index, heterozygosity and fitness breakdown in parents and F1 crosses. 
-
+In addition, there is a haploid brownian bridge version where the allele frequencies at the extreme demes are fixed.
 
 The parameters are the following:
 d: number of demes
