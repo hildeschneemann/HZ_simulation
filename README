@@ -1,0 +1,33 @@
+This repository contains the code to perform simulations of a fisher's stepping stone model of a hybrid zone, and the resulting animations.
+
+There are different versions of the simulations:
+diploid/haploid and using either a fitness function based on Fisher's geometric model with the initial diverged state approximated by a brownian bridge, or a simpler fitness function in which all loci are exchangeable, in which fitness depends on the hybrid index, heterozygosity and fitness breakdown in parents and F1 crosses. 
+
+
+The parameters are the following:
+d: number of demes
+N: size of the initial population
+mig: migration rate (between adjacent demes)
+b: position of the barrier
+prop: number of individuals in the first deme (after the split)
+n: number of phenotypic dimensions (complexity)
+m: number of dimensions affected by a mutation (pleiotropy)
+sig: size of mutational steps along each phenotypic axis
+diff: change in optimum after split
+a: strength of selection (steepness of fitness function)
+Q: curvature of fitness function (cf Gros et al 2009 Genetics)
+U: total mutation rate per genome (on selected loci)
+nbS: total number of selected loci per genome
+L: genome map length (mean nb of cross-overs per meiosis)
+	set to -1 for free recombination
+ff1: fitness breakdown in F1 generation
+fp: fitness breakdown in parents
+r: contribution of heterozygosity to curvature fitness function
+Ts: number of generations saved
+pas: number of generations between subsequent saved generations
+
+During the simulation the number of times that the sign of the difference in allele frequency of locus 1between the current and last generation is recorded.
+ When this reaches a threshold (set to 200), the simulation is said to have reached an equilibrium state. 
+If the allele frequency difference is 0, this also counts as a sign change. 
+Additionally there is a burn-in period of ... generations before the sign change is recorded.
+Once the equilibrium state is reached the simulation runs one more loop of Ts generations which are saved to the result file and used to generate the animation. 
