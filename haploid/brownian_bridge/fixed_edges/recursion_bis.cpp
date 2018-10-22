@@ -204,7 +204,7 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 		{
 		//	cout << "ok before mut?\n";
 			mutations[nb + j] = sigv * (Brown[j+1] - Brown[j]);
-			cout << nb+j << "\t" << mutations[nb + j] << "\n";
+			cout << nb << "/t" << j << "\t" << mutations[nb + j] << "\n";
 		}
 	}
     // generations:
@@ -433,7 +433,7 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 
 	// time length:
 	int temps = int(difftime(fin, debut));
-	cout << NbGen << "generations ont pris" << temps << " secondes\n";
+	cout << NbGen << " generations ont pris " << temps << " secondes\n";
 
 	// date and time:
 
