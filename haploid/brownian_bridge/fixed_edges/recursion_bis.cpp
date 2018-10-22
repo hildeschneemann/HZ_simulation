@@ -46,7 +46,7 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 	// variables:
 
 	int i, j, k, loc, gen, mut, chr1, chr2, ind, nb, nb1, nb2, nb3, nb4, nbMig, ns, part, nbCo;
-	double w, wbar, varw, rd, pp, d, x, sz2;
+	double w, wbar, varw, rd, pp, d, x, sz2, delta_p, p_old;
 	vector<int> store;
 	bool withrec;
 
@@ -67,7 +67,14 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 	withrec = Lv == -1 ? false : true;
 	int Nd1 = bv * Nv;
 	int d_1 = dv -1;
-
+	bool equi=false;
+	bool last=0;
+	bool sign=true;
+	int nbSign=0;
+	int round=0;
+	int indexGen=0;
+	int accGen=0;
+	
 	// HDF5 constants and variables
 
 	string fileName;
@@ -96,7 +103,6 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 	const int DIM_W1 = dv;
 	hsize_t dim_sub_freq[RANK_FREQ];
 	hsize_t dim_sub_w[RANK_W];
-	int indexGen = 0; // where to write in HDF5 dataset
 	double sdata_freq[DIM0_SUB*DIM1_SUB*DIM2_SUB]; // subset to write to HDF5 dataset
 	double sdata_w[1*DIM_W1];
 	int savedGen[DIM0];
@@ -204,11 +210,12 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 		{
 		//	cout << "ok before mut?\n";
 			mutations[nb + j] = sigv * (Brown[j+1] - Brown[j]);
-			cout << nb << "/t" << j << "\t" << mutations[nb + j] << "\n";
+			cout << nb << "\t" << j << "\t" << mutations[nb + j] << "\n";
 		}
 	}
     // generations:
-
+	while(equi == false & accGen < 10000)
+	{
 	for (gen = 0; gen < NbGen; gen++)
 	{
 		// fitness of each individual, maximal fitnesses,
@@ -375,9 +382,9 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 
 
 		// write result in HDF5 file
-		if (gen % pasv == 0 || gen == NbGen_1)
+		if (gen % pasv == 0)
 		{
-
+		indexGen = gen / pasv;
 			// Allele frequency data
 			for (loc = 0; loc < nbSv; loc++)
 			{
@@ -386,15 +393,40 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 					nb = Nv * i;
 					d = 0;
 					for (j = 0; j < Nv; j++)
+					{
 						if (pop[nb + j].sel[loc] == 1)
+						{
 							d += 1;
 							sdata_freq[loc * dv + i] = d / Nv;
 						}
 					}
+				}
+			}
 			writeTimeStepHDF5(file, dset_freq, RANK_FREQ,
 				dim_sub_freq, sdata_freq, indexGen);
 
-	//	cout << "ok after writing freq in HDF5?\n";
+			delta_p = sdata_freq[bv] - p_old;
+			p_old = sdata_freq[bv];
+
+
+                      if (accGen > 200) //burnin period
+                        {
+                                if (delta_p ==0)
+                                        nbSign += 1;
+                                else if (delta_p < 0 && sign ==true)
+                                        {
+                                        nbSign +=1;
+                                        sign = false;
+                                        }
+                                else if (delta_p > 0 && sign==false)
+                                        {
+                                        nbSign+=1;
+                                        sign=true;
+                                        }
+                         }
+
+
+
 
 			// mean fitness of demes
 			for (i = 0; i < dv; i++) // demes
@@ -412,14 +444,24 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 	//	cout << " ok after writing fitness in HDF5?\n";
 
 			// which generation was saved
-			savedGen[indexGen] = gen + 1;
-
-			indexGen +=	1;
+			savedGen[indexGen] = accGen;
 		}
+		accGen +=	1;
+	
 
 	} // end gen loop
-//	cout << "ok after end gen loop?\n";
-	// write savedGen to file
+	
+	if (nbSign > 200)
+	{
+		if (last == 0)
+			last =1;
+		else
+			equi=true;
+	}
+	round +=1;
+	}//end while loop
+
+// write savedGen to file
 	writeGenSaved(file, dset_gen, savedGen);
 //	cout << "ok after writing gen in HDF5?\n";
 

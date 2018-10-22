@@ -464,12 +464,6 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 	file.close();
 
 
-	// writes in output file:
-	fprintf(fichierS, "\n\nResultats dans fichier ");
-	fprintf(fichierS, "%s", fileName.c_str());
-	fprintf(fichierS, "\n");
-	         
-		
 	
 	delete [] pop;
 	delete [] temp;
