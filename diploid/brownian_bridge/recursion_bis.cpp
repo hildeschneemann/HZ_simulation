@@ -199,6 +199,8 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 	// samples the effect of allele 1 at each locus on each m (randomly sampled) phenotypic axes.
 	// stores the result in "mutations" table:
 
+       cout << "dimension\tlocus\tmutational effect\n";
+
 	for (i = 0; i < nS; i++)
 		mutations[i] = 0;
 	for (i = 0; i < nv; i++)
