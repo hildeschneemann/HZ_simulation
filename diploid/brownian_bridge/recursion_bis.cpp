@@ -46,7 +46,7 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 	// variables:
 
 	int i, j, k, loc, gen, mut, chr1, chr2, ind, nb, nb1, nb2, nb3, nb4, nbMig, ns, part, nbCo, par1, par2;
-	double w, wbar, varw, rd, pp, d, x, sz2;
+	double w, wbar, varw, rd, pp, d, x, sz2, delta_p, p_old;
 	vector<int> store;
 	bool withrec;
 
@@ -66,6 +66,12 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
     int NbGen = T1v + T2v + T3v; // total number of generations
 	int NbGen_1 = NbGen - 1;
     int Tcontact = T1v + T2v; // time of secondary contact
+	bool equi=false;
+       bool last=0;
+        bool sign=true;
+        int nbSign=0;
+        int round=0;
+        int accGen=0;
 	withrec = Lv == -1 ? false : true;
 
 	// HDF5 constants and variables
@@ -198,16 +204,17 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 	for (i = 0; i < nv; i++)
 	{
 		nb = nbSv * i;
-		brownian_bridge(nbSv);
-		Brown[nbSv] = 0.0;
+		brownian_bridge(Brown, nbSv+1);
 		for (j = 0; j < nbSv; j++)
 		{
 		//	cout << "ok before mut?\n";
 			mutations[nb + j] = sigv * (Brown[j+1] - Brown[j]);
-			cout << mutations[nb+j];
+			cout << nb << "\t" << j << "\t" << mutations[nb + j] << "\n";
 		}
 	}
     // generations:
+ while(equi == false & accGen < 10000)
+ {
 
 	for (gen = 0; gen < NbGen; gen++)
 	{
@@ -393,9 +400,9 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 
 
 		// write result in HDF5 file
-		if (gen % pasv == 0 || gen == NbGen_1)
+		if (gen % pasv == 0 )
 		{
-
+		indexGen=gen / pasv;
 			// Allele frequency data
 			for (loc = 0; loc < nbSv; loc++)
 			{
@@ -404,15 +411,38 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 					nb = twoN * i;
 					d = 0;
 					for (j = 0; j < twoN; j++)
+					{
 						if (pop[nb + j].sel[loc] == 1)
+						{
 							d += 1;
 							sdata_freq[loc * dv + i] = d / twoN;
 						}
 					}
+				}
+			}
 			writeTimeStepHDF5(file, dset_freq, RANK_FREQ,
 				dim_sub_freq, sdata_freq, indexGen);
 
-	//	cout << "ok after writing freq in HDF5?\n";
+			delta_p = sdata_freq[bv] - p_old;
+			p_old = sdata_freq[bv];
+
+
+                    if (accGen > 200) //burnin period
+                        {
+                                if (delta_p ==0)
+                                        nbSign += 1;
+                                else if (delta_p < 0 && sign ==true)
+                                        {
+                                        nbSign +=1;
+                                        sign = false;
+                                        }
+                                else if (delta_p > 0 && sign==false)
+                                        {
+                                        nbSign+=1;
+                                        sign=true;
+                                        }
+                         }
+
 
 			// mean fitness of demes
 			for (i = 0; i < dv; i++) // demes
@@ -430,13 +460,23 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 	//	cout << " ok after writing fitness in HDF5?\n";
 
 			// which generation was saved
-			savedGen[indexGen] = gen + 1;
+			savedGen[indexGen] = accGen;
+			}
+			accGen +=	1;
+		}//end gen loop
+        if (nbSign > 200)
+        {
+                if (last == 0)
+                        last =1;
+                else
+                        equi=true;
+        }
+        round +=1;
 
-			indexGen +=	1;
-		}
+	} // end while loop
+	
+	
 
-	} // end gen loop
-//	cout << "ok after end gen loop?\n";
 	// write savedGen to file
 	writeGenSaved(file, dset_gen, savedGen);
 //	cout << "ok after writing gen in HDF5?\n";
@@ -448,20 +488,11 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 
 	fin = time(0);
 
-	// writes in output file:
-	fprintf(fichierS, "\n\nResultats dans fichier ");
-	fprintf(fichierS, "%s", fileName.c_str());
-	fprintf(fichierS, "\n");
 
 	// time length:
 	int temps = int(difftime(fin, debut));
-	fprintf(fichierS,
-		 "\n%d generations ont pris %d heure(s) %d minute(s) %d secondes\n",
-		 NbGen, temps / 3600, (temps % 3600) / 60, temps % 60);
-
-	// date and time:
-	ptr=localtime(&fin);
-	fprintf(fichierS, "%s", asctime(ptr));
+	cout << NbGen << " generations ont pris " << temps << " secondes\n";
+	
 
 	delete [] pop;
 	delete [] temp;

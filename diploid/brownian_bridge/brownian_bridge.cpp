@@ -5,7 +5,7 @@ using namespace std;
 
 extern MTRand rnd;
 
-void brownian_bridge(double &Brown, int nbSv)
+void brownian_bridge(double * Brown, int nbSv)
 {
 	int i =0;
 	double gasdev();
@@ -28,8 +28,8 @@ void brownian_bridge(double &Brown, int nbSv)
         for (i = 1; i < nbSv; i++)
         {
                 Brown[i] = cumW[i] - times[i] * cumW[nbSv-1];
-		cout << i << "\t" << Brown[i] << "\n";
+	//	cout << i << "\t" << Brown[i] << "\n";
 	//cout << times[i] << "\t" << distW[i] << "\t" << cumW[i] << "\t" << Brown[i] << "\n";
          }
-	Brown[nbSv] = 0.0;
+//	Brown[nbSv] = 0.0;
 }
