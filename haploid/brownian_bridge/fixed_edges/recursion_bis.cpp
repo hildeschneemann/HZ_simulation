@@ -198,13 +198,13 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 	for (i = 0; i < nv; i++)
 	{
 		nb = nbSv * i;
-		brownian_bridge(nbSv);
-		Brown[nbSv] = 0.0;
+		brownian_bridge(Brown, nbSv+1);
+		//Brown[nbSv] = 0.0;
 		for (j = 0; j < nbSv; j++)
 		{
 		//	cout << "ok before mut?\n";
 			mutations[nb + j] = sigv * (Brown[j+1] - Brown[j]);
-		//	cout << "ok after mut?\n";
+			cout << nb+j << "\t" << mutations[nb + j] << "\n";
 		}
 	}
     // generations:
@@ -368,14 +368,6 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
            //     temp[i].sel.flip(int(rnd.randInt(nbS_1)));
         //}
 
-        // fix first and last deme :
-//	for (i = 0; i < Nv; i++)
- //   	{
-//		pop[i].sel.assign(nbSv, 0);
- //       	temp[i].sel.assign(nbSv, 0);
-//		pop[Nd - i].sel.assign(nbSv, 0);
- //   		temp[Nd - i].sel.assign(nbSv, 0);
-//	}
 
         cp = pop;
         pop = temp;
@@ -438,20 +430,12 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 
 	fin = time(0);
 
-	// writes in output file:
-	fprintf(fichierS, "\n\nResultats dans fichier ");
-	fprintf(fichierS, "%s", fileName.c_str());
-	fprintf(fichierS, "\n");
 
 	// time length:
 	int temps = int(difftime(fin, debut));
-	fprintf(fichierS,
-		 "\n%d generations ont pris %d heure(s) %d minute(s) %d secondes\n",
-		 NbGen, temps / 3600, (temps % 3600) / 60, temps % 60);
+	cout << NbGen << "generations ont pris" << temps << " secondes\n";
 
 	// date and time:
-	ptr=localtime(&fin);
-	fprintf(fichierS, "%s", asctime(ptr));
 
 	delete [] pop;
 	delete [] temp;
