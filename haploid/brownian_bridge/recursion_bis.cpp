@@ -217,7 +217,7 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
     // generations:
 	while(equi == false & accGen < 10000)
 	{
-        cout << "last: "<< last << ", nbSign" << nbSign << ", equi: "<< equi << ", indexGen: "<< indexGen << "\n";
+        //cout << "last: "<< last << ", nbSign" << nbSign << ", equi: "<< equi << ", indexGen: "<< indexGen << "\n";
 		for (gen = 0; gen < NbGen; gen++)
 		{
 			// fitness of each individual, maximal fitnesses,
