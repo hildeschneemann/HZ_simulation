@@ -466,7 +466,7 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 			}
 			accGen +=	1;
 		}//end gen loop
-        if (nbSign > 200)
+        if (nbSign > 20)
         {
                 if (last == 0)
                         last =1;

@@ -1,0 +1,12 @@
+round: 0, last: 0, nbSign0, equi: 0, accGen: 0
+round: 1, last: 0, nbSign8, equi: 0, accGen: 2000
+round: 2, last: 1, nbSign16, equi: 0, accGen: 4000
+round: 3, last: 1, nbSign25, equi: 0, accGen: 6000
+round: 4, last: 1, nbSign32, equi: 0, accGen: 8000
+2000 generations ont pris499secondes
+round: 0, last: 0, nbSign0, equi: 0, accGen: 0
+round: 1, last: 1, nbSign7, equi: 0, accGen: 2000
+round: 2, last: 1, nbSign14, equi: 0, accGen: 4000
+round: 3, last: 1, nbSign21, equi: 0, accGen: 6000
+round: 4, last: 1, nbSign28, equi: 0, accGen: 8000
+2000 generations ont pris502secondes

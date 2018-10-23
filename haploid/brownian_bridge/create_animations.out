@@ -1,0 +1,1125 @@
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+Error: Aesthetics must be either length 1 or the same as the data (80): x, y
+In addition: Warning messages:
+1: Removed 3 rows containing missing values (geom_path). 
+2: Removed 3 rows containing missing values (geom_path). 
+3: Removed 3 rows containing missing values (geom_path). 
+Execution halted
+fatal: pathspec 'haploid/brownian_bridge/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000-0-0_1' did not match any files
+# On branch master
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot1.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot10.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot100.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot1000.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot1001.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot101.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot102.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot103.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot104.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot105.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot106.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot107.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot108.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot109.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot11.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot110.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot111.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot112.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot113.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot114.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot115.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot116.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot117.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot118.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot119.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot12.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot120.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot121.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot122.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot123.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot124.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot125.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot126.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot127.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot128.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot129.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot13.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot130.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot131.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot132.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot133.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot134.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot135.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot136.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot137.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot138.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot139.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot14.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot140.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot141.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot142.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot143.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot144.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot145.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot146.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot147.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot148.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot149.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot15.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot150.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot151.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot152.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot153.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot154.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot155.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot156.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot157.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot158.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot159.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot16.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot160.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot161.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot162.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot163.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot164.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot165.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot166.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot167.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot168.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot169.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot17.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot170.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot171.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot172.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot173.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot174.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot175.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot176.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot177.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot178.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot179.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot18.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot180.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot181.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot182.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot183.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot184.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot185.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot186.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot187.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot188.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot189.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot19.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot190.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot191.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot192.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot193.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot194.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot195.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot196.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot197.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot198.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot199.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot2.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot20.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot200.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot201.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot202.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot203.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot204.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot205.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot206.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot207.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot208.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot209.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot21.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot210.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot211.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot212.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot213.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot214.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot215.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot216.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot217.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot218.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot219.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot22.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot220.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot221.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot222.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot223.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot224.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot225.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot226.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot227.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot228.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot229.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot23.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot230.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot231.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot232.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot233.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot234.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot235.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot236.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot237.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot238.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot239.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot24.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot240.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot241.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot242.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot243.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot244.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot245.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot246.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot247.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot248.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot249.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot25.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot250.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot251.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot252.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot253.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot254.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot255.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot256.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot257.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot258.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot259.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot26.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot260.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot261.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot262.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot263.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot264.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot265.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot266.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot267.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot268.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot269.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot27.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot270.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot271.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot272.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot273.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot274.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot275.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot276.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot277.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot278.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot279.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot28.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot280.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot281.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot282.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot283.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot284.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot285.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot286.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot287.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot288.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot289.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot29.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot290.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot291.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot292.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot293.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot294.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot295.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot296.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot297.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot298.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot299.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot3.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot30.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot300.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot301.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot302.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot303.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot304.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot305.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot306.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot307.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot308.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot309.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot31.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot310.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot311.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot312.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot313.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot314.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot315.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot316.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot317.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot318.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot319.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot32.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot320.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot321.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot322.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot323.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot324.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot325.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot326.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot327.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot328.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot329.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot33.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot330.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot331.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot332.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot333.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot334.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot335.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot336.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot337.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot338.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot339.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot34.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot340.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot341.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot342.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot343.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot344.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot345.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot346.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot347.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot348.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot349.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot35.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot350.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot351.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot352.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot353.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot354.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot355.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot356.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot357.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot358.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot359.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot36.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot360.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot361.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot362.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot363.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot364.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot365.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot366.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot367.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot368.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot369.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot37.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot370.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot371.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot372.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot373.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot374.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot375.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot376.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot377.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot378.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot379.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot38.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot380.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot381.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot382.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot383.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot384.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot385.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot386.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot387.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot388.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot389.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot39.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot390.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot391.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot392.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot393.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot394.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot395.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot396.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot397.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot398.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot399.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot4.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot40.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot400.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot401.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot402.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot403.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot404.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot405.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot406.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot407.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot408.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot409.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot41.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot410.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot411.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot412.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot413.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot414.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot415.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot416.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot417.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot418.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot419.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot42.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot420.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot421.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot422.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot423.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot424.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot425.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot426.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot427.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot428.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot429.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot43.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot430.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot431.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot432.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot433.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot434.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot435.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot436.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot437.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot438.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot439.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot44.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot440.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot441.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot442.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot443.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot444.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot445.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot446.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot447.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot448.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot449.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot45.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot450.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot451.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot452.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot453.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot454.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot455.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot456.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot457.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot458.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot459.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot46.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot460.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot461.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot462.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot463.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot464.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot465.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot466.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot467.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot468.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot469.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot47.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot470.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot471.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot472.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot473.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot474.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot475.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot476.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot477.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot478.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot479.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot48.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot480.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot481.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot482.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot483.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot484.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot485.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot486.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot487.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot488.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot489.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot49.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot490.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot491.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot492.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot493.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot494.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot495.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot496.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot497.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot498.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot499.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot5.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot50.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot500.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot501.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot502.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot503.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot504.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot505.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot506.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot507.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot508.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot509.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot51.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot510.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot511.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot512.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot513.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot514.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot515.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot516.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot517.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot518.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot519.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot52.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot520.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot521.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot522.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot523.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot524.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot525.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot526.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot527.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot528.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot529.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot53.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot530.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot531.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot532.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot533.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot534.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot535.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot536.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot537.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot538.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot539.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot54.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot540.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot541.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot542.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot543.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot544.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot545.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot546.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot547.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot548.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot549.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot55.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot550.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot551.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot552.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot553.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot554.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot555.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot556.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot557.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot558.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot559.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot56.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot560.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot561.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot562.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot563.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot564.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot565.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot566.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot567.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot568.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot569.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot57.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot570.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot571.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot572.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot573.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot574.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot575.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot576.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot577.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot578.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot579.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot58.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot580.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot581.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot582.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot583.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot584.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot585.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot586.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot587.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot588.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot589.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot59.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot590.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot591.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot592.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot593.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot594.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot595.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot596.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot597.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot598.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot599.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot6.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot60.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot600.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot601.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot602.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot603.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot604.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot605.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot606.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot607.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot608.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot609.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot61.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot610.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot611.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot612.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot613.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot614.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot615.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot616.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot617.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot618.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot619.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot62.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot620.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot621.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot622.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot623.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot624.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot625.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot626.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot627.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot628.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot629.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot63.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot630.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot631.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot632.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot633.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot634.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot635.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot636.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot637.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot638.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot639.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot64.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot640.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot641.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot642.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot643.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot644.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot645.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot646.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot647.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot648.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot649.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot65.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot650.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot651.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot652.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot653.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot654.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot655.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot656.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot657.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot658.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot659.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot66.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot660.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot661.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot662.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot663.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot664.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot665.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot666.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot667.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot668.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot669.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot67.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot670.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot671.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot672.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot673.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot674.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot675.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot676.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot677.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot678.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot679.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot68.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot680.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot681.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot682.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot683.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot684.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot685.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot686.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot687.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot688.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot689.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot69.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot690.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot691.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot692.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot693.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot694.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot695.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot696.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot697.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot698.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot699.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot7.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot70.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot700.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot701.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot702.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot703.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot704.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot705.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot706.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot707.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot708.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot709.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot71.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot710.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot711.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot712.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot713.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot714.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot715.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot716.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot717.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot718.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot719.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot72.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot720.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot721.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot722.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot723.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot724.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot725.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot726.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot727.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot728.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot729.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot73.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot730.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot731.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot732.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot733.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot734.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot735.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot736.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot737.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot738.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot739.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot74.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot740.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot741.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot742.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot743.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot744.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot745.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot746.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot747.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot748.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot749.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot75.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot750.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot751.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot752.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot753.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot754.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot755.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot756.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot757.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot758.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot759.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot76.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot760.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot761.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot762.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot763.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot764.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot765.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot766.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot767.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot768.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot769.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot77.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot770.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot771.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot772.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot773.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot774.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot775.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot776.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot777.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot778.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot779.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot78.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot780.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot781.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot782.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot783.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot784.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot785.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot786.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot787.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot788.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot789.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot79.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot790.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot791.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot792.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot793.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot794.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot795.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot796.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot797.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot798.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot799.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot8.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot80.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot800.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot801.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot802.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot803.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot804.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot805.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot806.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot807.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot808.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot809.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot81.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot810.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot811.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot812.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot813.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot814.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot815.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot816.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot817.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot818.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot819.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot82.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot820.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot821.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot822.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot823.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot824.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot825.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot826.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot827.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot828.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot829.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot83.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot830.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot831.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot832.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot833.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot834.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot835.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot836.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot837.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot838.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot839.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot84.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot840.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot841.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot842.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot843.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot844.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot845.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot846.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot847.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot848.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot849.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot85.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot850.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot851.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot852.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot853.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot854.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot855.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot856.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot857.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot858.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot859.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot86.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot860.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot861.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot862.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot863.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot864.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot865.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot866.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot867.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot868.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot869.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot87.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot870.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot871.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot872.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot873.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot874.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot875.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot876.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot877.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot878.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot879.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot88.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot880.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot881.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot882.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot883.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot884.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot885.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot886.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot887.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot888.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot889.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot89.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot890.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot891.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot892.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot893.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot894.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot895.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot896.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot897.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot898.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot899.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot9.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot90.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot900.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot901.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot902.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot903.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot904.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot905.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot906.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot907.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot908.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot909.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot91.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot910.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot911.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot912.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot913.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot914.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot915.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot916.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot917.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot918.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot919.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot92.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot920.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot921.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot922.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot923.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot924.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot925.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot926.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot927.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot928.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot929.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot93.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot930.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot931.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot932.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot933.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot934.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot935.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot936.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot937.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot938.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot939.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot94.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot940.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot941.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot942.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot943.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot944.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot945.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot946.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot947.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot948.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot949.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot95.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot950.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot951.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot952.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot953.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot954.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot955.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot956.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot957.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot958.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot959.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot96.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot960.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot961.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot962.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot963.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot964.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot965.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot966.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot967.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot968.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot969.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot97.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot970.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot971.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot972.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot973.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot974.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot975.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot976.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot977.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot978.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot979.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot98.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot980.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot981.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot982.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot983.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot984.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot985.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot986.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot987.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot988.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot989.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot99.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot990.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot991.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot992.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot993.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot994.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot995.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot996.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot997.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot998.png
+#	modified:   ../../diploid/brownian_bridge/anim_d20_N20_mig0.1_b10_n5_m5_sig0.1_diff2_a0.3_Q2_U0.1_nbS8_L-1_Ts1000_ff1_fp_r_1/images/Rplot999.png
+#	modified:   ../../diploid/brownian_bridge/create_animations.out
+#	deleted:    anim_d_N_mig_b_n_m_sig_diff_a_Q_U_nbS_L_Ts_ff1_fp_r_/images/Rplot1.png
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	../../diploid/brownian_bridge/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff1_fp_r_1/
+#	../../diploid/brownian_bridge/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff1_fp_r_1/
+#	../../diploid/brownian_bridge/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff1_fp_r_1/
+#	../../diploid/brownian_bridge/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff1_fp_r_1/
+#	../../diploid/brownian_bridge/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff1_fp_r_1/
+#	../../diploid/brownian_bridge/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff1_fp_r_1/
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS2_L-1_Ts2000_0_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS2_L-1_Ts2000_0_0_2_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS2_L-1_Ts2000_0_1_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS2_L-1_Ts2000_0_1_2_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS2_L-1_Ts2000_1_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS2_L-1_Ts2000_1_1_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS8_L-1_Ts2000_0_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS8_L-1_Ts2000_0_0_2_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS8_L-1_Ts2000_0_1_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS8_L-1_Ts2000_0_1_2_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS8_L-1_Ts2000_1_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS8_L-1_Ts2000_1_1_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS2_L-1_Ts2000_0_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS2_L-1_Ts2000_0_0_2_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS2_L-1_Ts2000_0_1_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS2_L-1_Ts2000_0_1_2_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS2_L-1_Ts2000_1_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS2_L-1_Ts2000_1_1_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS8_L-1_Ts2000_0_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS8_L-1_Ts2000_0_0_2_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS8_L-1_Ts2000_0_1_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS8_L-1_Ts2000_0_1_2_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS8_L-1_Ts2000_1_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS8_L-1_Ts2000_1_1_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS2_L-1_Ts2000_0_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS2_L-1_Ts2000_0_0_2_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS2_L-1_Ts2000_0_1_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS2_L-1_Ts2000_0_1_2_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS2_L-1_Ts2000_1_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS2_L-1_Ts2000_1_1_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS8_L-1_Ts2000_0_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS8_L-1_Ts2000_0_0_2_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS8_L-1_Ts2000_0_1_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS8_L-1_Ts2000_0_1_2_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS8_L-1_Ts2000_1_0_0_200.out
+#	../../diploid/simple_fitness/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS8_L-1_Ts2000_1_1_0_200.out
+#	../../diploid/simple_fitness/paramfiles/
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r200_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r200_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r200_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r200_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r200_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r200_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1.h5
+#	../../diploid/simple_fitness/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1.h5
+#	../../diploid/simple_fitness/submit.sub
+#	../../diploid/simple_fitness/submitfiles/
+#	anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff1_fp_r_1/
+#	create_animations.out
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
