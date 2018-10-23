@@ -202,7 +202,7 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 
     
     // generations:
-	while(equi == false & accGen < 10000)
+	while(equi == false & accGen < 100000)
 	{
 	cout << "round: " << round << ", last: "<< last << ", nbSign" << nbSign << ", equi: "<< equi << ", accGen: "<< accGen << "\n";
 		for (gen=0; gen < NbGen; gen++)

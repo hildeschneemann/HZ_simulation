@@ -22,3 +22,15 @@ dimension	locus	mutational effect
 8	0	0.0204267
 8	1	-0.0204267
 2000 generations ont pris 691 secondes
+dimension	locus	mutational effect
+0	0	-0.0125789
+0	1	0.0125789
+2	0	0.0407412
+2	1	-0.0407412
+4	0	0.0231487
+4	1	-0.0231487
+6	0	-0.035708
+6	1	0.035708
+8	0	0.0441034
+8	1	-0.0441034
+2000 generations ont pris 552 secondes

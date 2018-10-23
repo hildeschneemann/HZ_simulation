@@ -66,12 +66,12 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
     int NbGen = T1v + T2v + T3v; // total number of generations
 	int NbGen_1 = NbGen - 1;
     int Tcontact = T1v + T2v; // time of secondary contact
-	bool equi=false;
-       bool last=0;
-        bool sign=true;
-        int nbSign=0;
-        int round=0;
-        int accGen=0;
+	bool equi = false;
+       bool last = 0;
+        bool sign = true;
+        int nbSign = 0;
+        int round = 0;
+        int accGen = 0;
 	withrec = Lv == -1 ? false : true;
 
 	// HDF5 constants and variables
@@ -470,12 +470,12 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 		if (nbSign > 20)
 		{
 			if (last == 0)
-				last =1;
+				last = 1;
 			else
-				equi=true;
+				equi = true;
 		}
 		
-		round +=1;
+		round += 1;
 
 	} // end while loop
 	
