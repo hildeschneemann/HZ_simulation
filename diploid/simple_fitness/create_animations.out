@@ -1,0 +1,1458 @@
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 28ff9b4] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   a18815f..28ff9b4  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+Error: Aesthetics must be either length 1 or the same as the data (4200): x, y
+Execution halted
+fatal: pathspec 'diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r200_1' did not match any files
+# On branch master
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/resultats.txt
+#	deleted:    ../../haploid/brownian_bridge/anim_d_N_mig_b_n_m_sig_diff_a_Q_U_nbS_L_Ts_ff1_fp_r_/images/Rplot1.png
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	anim_d_N_mig_b_n_m_sig_diff_a_Q_U_nbS_L_Ts_ff1_fp_r_/
+#	create_animations.out
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master f5c9770] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   28ff9b4..f5c9770  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 9a8391b] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   f5c9770..9a8391b  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 87cfcc5] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   9a8391b..87cfcc5  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master e3aa781] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   87cfcc5..e3aa781  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 7af6797] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   e3aa781..7af6797  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 2c2e2e9] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   7af6797..2c2e2e9  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+Error: Aesthetics must be either length 1 or the same as the data (4200): x, y
+Execution halted
+fatal: pathspec 'diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r200_1' did not match any files
+# On branch master
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/resultats.txt
+#	deleted:    ../../haploid/brownian_bridge/anim_d_N_mig_b_n_m_sig_diff_a_Q_U_nbS_L_Ts_ff1_fp_r_/images/Rplot1.png
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	anim_d_N_mig_b_n_m_sig_diff_a_Q_U_nbS_L_Ts_ff1_fp_r_/
+#	create_animations.out
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master bfeab93] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   2c2e2e9..bfeab93  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 697a3cf] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   bfeab93..697a3cf  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 4059007] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   697a3cf..4059007  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 1bcfeaf] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   4059007..1bcfeaf  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master a5a689e] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   1bcfeaf..a5a689e  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 2b6b13f] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   a5a689e..2b6b13f  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+Error: Aesthetics must be either length 1 or the same as the data (4200): x, y
+Execution halted
+fatal: pathspec 'diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r200_1' did not match any files
+# On branch master
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/resultats.txt
+#	deleted:    ../../haploid/brownian_bridge/anim_d_N_mig_b_n_m_sig_diff_a_Q_U_nbS_L_Ts_ff1_fp_r_/images/Rplot1.png
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	anim_d_N_mig_b_n_m_sig_diff_a_Q_U_nbS_L_Ts_ff1_fp_r_/
+#	create_animations.out
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master fcd53c2] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   2b6b13f..fcd53c2  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 5ace3cc] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   fcd53c2..5ace3cc  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 17d440a] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   5ace3cc..17d440a  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 76d7fda] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   17d440a..76d7fda  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 8a54013] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   76d7fda..8a54013  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 509171f] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   8a54013..509171f  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+Error: Aesthetics must be either length 1 or the same as the data (4200): x, y
+Execution halted
+fatal: pathspec 'diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r200_1' did not match any files
+# On branch master
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/resultats.txt
+#	deleted:    ../../haploid/brownian_bridge/anim_d_N_mig_b_n_m_sig_diff_a_Q_U_nbS_L_Ts_ff1_fp_r_/images/Rplot1.png
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	anim_d_N_mig_b_n_m_sig_diff_a_Q_U_nbS_L_Ts_ff1_fp_r_/
+#	create_animations.out
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master c3f4a1e] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   509171f..c3f4a1e  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 8f7a781] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   c3f4a1e..8f7a781  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 9d02e99] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   8f7a781..9d02e99  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master a36fd8a] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   9d02e99..a36fd8a  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 32d0578] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   a36fd8a..32d0578  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 0a1273c] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   32d0578..0a1273c  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+Error: Aesthetics must be either length 1 or the same as the data (4200): x, y
+Execution halted
+fatal: pathspec 'diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r200_1' did not match any files
+# On branch master
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/resultats.txt
+#	deleted:    ../../haploid/brownian_bridge/anim_d_N_mig_b_n_m_sig_diff_a_Q_U_nbS_L_Ts_ff1_fp_r_/images/Rplot1.png
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	anim_d_N_mig_b_n_m_sig_diff_a_Q_U_nbS_L_Ts_ff1_fp_r_/
+#	create_animations.out
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 7e28930] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp0_r2_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   0a1273c..7e28930  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master b7dcfc4] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   7e28930..b7dcfc4  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master d28e8e7] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff10_fp1_r2_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   b7dcfc4..d28e8e7  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master b46c0ea] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp0_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   d28e8e7..b46c0ea  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 1c1e108] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000_ff11_fp1_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   b46c0ea..1c1e108  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 11201b1] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   1c1e108..11201b1  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+Error: Aesthetics must be either length 1 or the same as the data (4200): x, y
+Execution halted
+fatal: pathspec 'diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r200_1' did not match any files
+# On branch master
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q0.125_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q2_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS2_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/d40_N100_mig0.1_b20_n5_m5_sig0.1_a0.5_diff2_Q32_U0.1_nbS8_L-1_Ts2000_0_0_200.out
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q0.125_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q2_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS2_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/result_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000-0-0_1.h5
+#	modified:   ../brownian_bridge/resultats.txt
+#	deleted:    ../../haploid/brownian_bridge/anim_d_N_mig_b_n_m_sig_diff_a_Q_U_nbS_L_Ts_ff1_fp_r_/images/Rplot1.png
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	anim_d_N_mig_b_n_m_sig_diff_a_Q_U_nbS_L_Ts_ff1_fp_r_/
+#	create_animations.out
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 6c10972] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp0_r2_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   11201b1..6c10972  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 1c64cb4] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   6c10972..1c64cb4  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master f39f878] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff10_fp1_r2_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   1c64cb4..f39f878  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 10f19df] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp0_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   f39f878..10f19df  master -> master
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+[master 5ab8643] add new animation anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1
+ 20 files changed, 509 insertions(+)
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/animation.html
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/reset.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.blue.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.dark.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/scianimator.light.css
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/css/styles.css
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot1.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot10.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot2.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot3.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot4.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot5.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot6.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot7.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot8.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/images/Rplot9.png
+ create mode 100644 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/js/Rplot.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/js/jquery-1.4.4.min.js
+ create mode 100755 diploid/simple_fitness/anim_d40_N100_mig0.1_b20_n5_m5_sig0.1_diff2_a0.5_Q32_U0.1_nbS8_L-1_Ts2000_ff11_fp1_r0_1/js/jquery.scianimator.min.js
+To git@github.com:hildeschneemann/HZ_simulation.git
+   10f19df..5ab8643  master -> master
