@@ -215,265 +215,267 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 		}
 	}
     // generations:
- while(equi == false & accGen < 10000)
- {
+	 while(equi == false & accGen < 100000)
+	 {
 
-	for (gen = 0; gen < NbGen; gen++)
-	{
-		// fitness of each individual, maximal fitnesses,
-		// mean fitness and variance in fitness:
-
-		wbar = 0;
-		varw = 0;
-        for (k = 0; k < nv; k++)
-        {
-            m[k] = 0;
-            v[k] = 0;
-        }
-
-		for (i = 0; i < dv; i++)  // for each deme
-        {
-            nb = i * Nv;
-            Wmax[i] = 0;
-
-            for (j = 0; j < Nv; j++)  // for each individual
-            {
-                nb2 = 2 * (nb + j);
-                sz2 = 0;
-
-                for (k = 0; k < nv; k++)  // phenotypes of the individual
-                {
-                    d = 0;
-                    for (loc = 0; loc < nbSv; loc++)
-                        if (pop[nb2].sel[loc] == 1)
-                            d += mutations[nbSv * k + loc];
-			if(pop[nb2+1].sel[loc] == 1)
-				d+= mutations[nbSv *k + loc];
-
-                    if ((gen > T1v) && (k == 0)) // change in optimum along first axis after T1 generations
-                        d -= diffv;
-
-                    m[k] += d;
-                    v[k] += d * d;
-                    sz2 += d * d; // "sz2" is the square of the distance to the optimum
-                }
-
-		//cout << "generation" << gen << ", ok after d+=?\n";
-                // fitness:
-
-                w = exp(-av * pow(sz2, hQ));
-                Wtot[nb2/2] = w;
-
-                wbar += w;
-                varw += w * w;
-                if (Wmax[i] < w)
-                    Wmax[i] = w;
-            }
-        }
-		wbar /= Nd;
-		varw /= Nd;
-        for (k = 0; k < nv; k++)
-        {
-            m[k] /= Nd;
-            v[k] /= Nd;
-            v[k] -= (m[k] * m[k]);
-        }
-
-		//cout << "generation" << gen << ", ok after d+=?\n";
-        // sampling the next generation:
-
-        for (i = 0; i < dv; i++) // for each deme i
-        {
-            nb3 = Nv*i;
-
-            // number of immigrants in deme i:
-
-            nbMig = int(binldev(migv, Nv));
-
-            // migrant individuals:
-
-            for (ind = 0; ind < nbMig; ind++)
-            {
-                nb4 = nb3 + ind;
-
-                // selection of a deme of origin (j):
-
-                if ((gen < T1v) || (gen > Tcontact))  // no barrier
-                {
-                    if ((i > 0) && (i < dv-1))
-                    {
-                        if (rnd.rand() < 0.5)
-                            j = i - 1;
-                        else
-                            j = i + 1;
-                    }
-                    else
-                    {
-                        if (i == 0)
-                            j = 1;
-                        else if (i == dv - 1)
-                            j = dv - 2;
-                    }
-                }
-
-                   
-                nb2 = Nv*j;
-
-                // sampling parents:
-
-                do
-                {
-                    par1 = nb2 + int(rnd.randInt(N_1));
-
-                } while (rnd.rand()> (Wtot[par1]/Wmax[j]));
-
-
-		if (withrec)
-			rec(temp[2*nb4], pop[2*par1], pop[2*par1+1], Lv, nbSv);
-		else
-			freerec(temp[2*nb4], pop[2*par1], pop[2*par1+1], nbSv);
-
-
-                do
-                {
-                    par2 = nb2 + int(rnd.randInt(N_1));
-
-                } while (rnd.rand()> (Wtot[par2] / Wmax[j]));
-
-                // recombination
-
-				if (withrec)
-					rec(temp[2*nb4+1], pop[2*par2], pop[2*par2+1], Lv, nbSv);
-				else
-					freerec(temp[2*nb4+1], pop[2*par2], pop[2*par2+1], nbSv);
-            }
-
-            // philopatric individuals:
-
-            for (ind = nbMig; ind < Nv; ind++)
-            {
-                nb4 = nb3 + ind;
-
-                // sampling parents:
-
-                do
-                {
-                    par1 = nb3 + int(rnd.randInt(N_1)) ;
-
-                } while (rnd.rand()> (Wtot[par1] / Wmax[i]));
-
-		
-
-		if (withrec)
-			rec(temp[2*nb4], pop[2*par1], pop[2*par1+1], Lv, nbSv);
-		else
-			freerec(temp[2*nb4], pop[2*par1], pop[2*par1+1], nbSv);
-                
-
-		do
-                {
-                    par2 = nb3 + int(rnd.randInt(N_1));
-
-                } while (rnd.rand()> (Wtot[par2] / Wmax[i]));
-
-                // recombination
-
-				if (withrec)
-					rec(temp[2*nb4+1], pop[2*par2], pop[2*par2+1], Lv, nbSv);
-				else
-					freerec(temp[2*nb4+1], pop[2*par2], pop[2*par2+1], nbSv);
-            }
-        }
-
-        // mutation
-
-       // for (i = 0; i < Nd; i++)
-        //{
-         //   mut = int(poisdev(Uv)); // number of new mutations
-          //  for (j = 0; j < mut; j++)
-           //     temp[i].sel.flip(int(rnd.randInt(nbS_1)));
-        //}
-
-        // update population:
-
-        cp = pop;
-        pop = temp;
-        temp = cp;
-
-
-		// write result in HDF5 file
-		if (gen % pasv == 0 )
+		for (gen = 0; gen < NbGen; gen++)
 		{
-		indexGen=gen / pasv;
-			// Allele frequency data
-			for (loc = 0; loc < nbSv; loc++)
+			// fitness of each individual, maximal fitnesses,
+			// mean fitness and variance in fitness:
+
+			wbar = 0;
+			varw = 0;
+			for (k = 0; k < nv; k++)
 			{
-				for (i = 0; i < dv; i++)
+			    m[k] = 0;
+			    v[k] = 0;
+			}
+
+			for (i = 0; i < dv; i++)  // for each deme
+			{
+			    nb = i * Nv;
+			    Wmax[i] = 0;
+
+			    for (j = 0; j < Nv; j++)  // for each individual
+			    {
+				nb2 = 2 * (nb + j);
+				sz2 = 0;
+
+				for (k = 0; k < nv; k++)  // phenotypes of the individual
 				{
-					nb = twoN * i;
-					d = 0;
-					for (j = 0; j < twoN; j++)
+				    d = 0;
+				    for (loc = 0; loc < nbSv; loc++)
+				    {
+					if (pop[nb2].sel[loc] == 1)
+					    d += mutations[nbSv * k + loc];
+					if(pop[nb2+1].sel[loc] == 1)
+					    d+= mutations[nbSv *k + loc];
+					}
+		
+					    if ((gen > T1v) && (k == 0)) // change in optimum along first axis after T1 generations
+						d -= diffv;
+
+					    m[k] += d;
+					    v[k] += d * d;
+					    sz2 += d * d; // "sz2" is the square of the distance to the optimum
+				}
+
+			//cout << "generation" << gen << ", ok after d+=?\n";
+			// fitness:
+
+				w = exp(-av * pow(sz2, hQ));
+				Wtot[nb2/2] = w;
+
+				wbar += w;
+				varw += w * w;
+				if (Wmax[i] < w)
+				    Wmax[i] = w;
+			    }
+			}
+			wbar /= Nd;
+			varw /= Nd;
+			for (k = 0; k < nv; k++)
+			{
+			    m[k] /= Nd;
+			    v[k] /= Nd;
+			    v[k] -= (m[k] * m[k]);
+			}
+
+			// sampling the next generation:
+
+			for (i = 0; i < dv; i++) // for each deme i
+			{
+			    nb3 = Nv*i;
+
+			    // number of immigrants in deme i:
+
+			    nbMig = int(binldev(migv, Nv));
+
+			    // migrant individuals:
+
+			    for (ind = 0; ind < nbMig; ind++)
+			    {
+				nb4 = nb3 + ind;
+
+				// selection of a deme of origin (j):
+
+				if ((gen < T1v) || (gen > Tcontact))  // no barrier
+				{
+				    if ((i > 0) && (i < dv-1))
+				    {
+					if (rnd.rand() < 0.5)
+					    j = i - 1;
+					else
+					    j = i + 1;
+				    }
+				    else
+				    {
+					if (i == 0)
+					    j = 1;
+					else if (i == dv - 1)
+					    j = dv - 2;
+				    }
+				}
+
+			   
+				nb2 = Nv*j;
+
+				// sampling parents:
+
+				do
+				{
+				    par1 = nb2 + int(rnd.randInt(N_1));
+
+				} while (rnd.rand()> (Wtot[par1]/Wmax[j]));
+
+
+				if (withrec)
+					rec(temp[2*nb4], pop[2*par1], pop[2*par1+1], Lv, nbSv);
+				else
+					freerec(temp[2*nb4], pop[2*par1], pop[2*par1+1], nbSv);
+
+
+				do
+				{
+				    par2 = nb2 + int(rnd.randInt(N_1));
+
+				} while (rnd.rand()> (Wtot[par2] / Wmax[j]));
+
+				// recombination
+
+				if (withrec)
+					rec(temp[2*nb4+1], pop[2*par2], pop[2*par2+1], Lv, nbSv);
+				else
+					freerec(temp[2*nb4+1], pop[2*par2], pop[2*par2+1], nbSv);
+			    }
+
+			    // philopatric individuals:
+
+			    for (ind = nbMig; ind < Nv; ind++)
+			    {
+				nb4 = nb3 + ind;
+
+				// sampling parents:
+
+				do
+				{
+				    par1 = nb3 + int(rnd.randInt(N_1)) ;
+
+				} while (rnd.rand()> (Wtot[par1] / Wmax[i]));
+
+			
+
+				if (withrec)
+					rec(temp[2*nb4], pop[2*par1], pop[2*par1+1], Lv, nbSv);
+				else
+					freerec(temp[2*nb4], pop[2*par1], pop[2*par1+1], nbSv);
+			
+
+				do
+				{
+				    par2 = nb3 + int(rnd.randInt(N_1));
+
+				} while (rnd.rand()> (Wtot[par2] / Wmax[i]));
+
+				// recombination
+
+				if (withrec)
+					rec(temp[2*nb4+1], pop[2*par2], pop[2*par2+1], Lv, nbSv);
+				else
+					freerec(temp[2*nb4+1], pop[2*par2], pop[2*par2+1], nbSv);
+			    }
+			}
+
+			// mutation
+
+		       // for (i = 0; i < Nd; i++)
+			//{
+			 //   mut = int(poisdev(Uv)); // number of new mutations
+			  //  for (j = 0; j < mut; j++)
+			   //     temp[i].sel.flip(int(rnd.randInt(nbS_1)));
+			//}
+
+			// update population:
+
+			cp = pop;
+			pop = temp;
+			temp = cp;
+
+
+			// write result in HDF5 file
+			if (gen % pasv == 0 )
+			{
+				indexGen = gen / pasv;
+				// Allele frequency data
+				for (loc = 0; loc < nbSv; loc++)
+				{
+					for (i = 0; i < dv; i++)
 					{
-						if (pop[nb + j].sel[loc] == 1)
+						nb = twoN * i;
+						d = 0;
+						for (j = 0; j < twoN; j++)
 						{
-							d += 1;
-							sdata_freq[loc * dv + i] = d / twoN;
+							if (pop[nb + j].sel[loc] == 1)
+							{
+								d += 1;
+								sdata_freq[loc * dv + i] = d / twoN;
+							}
 						}
 					}
 				}
-			}
-			writeTimeStepHDF5(file, dset_freq, RANK_FREQ,
-				dim_sub_freq, sdata_freq, indexGen);
+				writeTimeStepHDF5(file, dset_freq, RANK_FREQ,
+					dim_sub_freq, sdata_freq, indexGen);
 
-			delta_p = sdata_freq[bv] - p_old;
-			p_old = sdata_freq[bv];
-
-
-                    if (accGen > 200) //burnin period
-                        {
-                                if (delta_p ==0)
-                                        nbSign += 1;
-                                else if (delta_p < 0 && sign ==true)
-                                        {
-                                        nbSign +=1;
-                                        sign = false;
-                                        }
-                                else if (delta_p > 0 && sign==false)
-                                        {
-                                        nbSign+=1;
-                                        sign=true;
-                                        }
-                         }
+				delta_p = sdata_freq[bv] - p_old;
+				p_old = sdata_freq[bv];
 
 
-			// mean fitness of demes
-			for (i = 0; i < dv; i++) // demes
-			{
-				sdata_w[i] = 0;
-				for (j = 0; j < Nv; j++) // individuals
+				if(accGen > 200) //burnin period
 				{
-					 sdata_w[i] += Wtot[i * Nv + j];
+					if (delta_p ==0)
+						nbSign += 1;
+					else if (delta_p < 0 && sign ==true)
+						{
+						nbSign +=1;
+						sign = false;
+						}
+					else if (delta_p > 0 && sign==false)
+						{
+						nbSign+=1;
+						sign=true;
+						}
+			       }
+
+
+				// mean fitness of demes
+				for (i = 0; i < dv; i++) // demes
+				{
+					sdata_w[i] = 0;
+					for (j = 0; j < Nv; j++) // individuals
+					{
+						 sdata_w[i] += Wtot[i * Nv + j];
+					}
+					sdata_w[i] /= Nv;
 				}
-				sdata_w[i] /= Nv;
-			}
-			writeTimeStepHDF5(file, dset_w, RANK_W,
-				dim_sub_w, sdata_w, indexGen);
+				writeTimeStepHDF5(file, dset_w, RANK_W,
+					dim_sub_w, sdata_w, indexGen);
 
-	//	cout << " ok after writing fitness in HDF5?\n";
 
-			// which generation was saved
-			savedGen[indexGen] = accGen;
+				// which generation was saved
+				savedGen[indexGen] = accGen;
 			}
 			accGen +=	1;
 		}//end gen loop
-        if (nbSign > 20)
-        {
-                if (last == 0)
-                        last =1;
-                else
-                        equi=true;
-        }
-        round +=1;
+		
+		if (nbSign > 20)
+		{
+			if (last == 0)
+				last =1;
+			else
+				equi=true;
+		}
+		
+		round +=1;
 
 	} // end while loop
 	
@@ -481,7 +483,6 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 
 	// write savedGen to file
 	writeGenSaved(file, dset_gen, savedGen);
-//	cout << "ok after writing gen in HDF5?\n";
 
 	dset_freq.close();
 	dset_w.close();
@@ -500,7 +501,7 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 	delete [] temp;
 	delete [] mutations;
 	delete [] Wtot;
-    delete [] Wmax;
+	delete [] Wmax;
 	delete [] m;
 	delete [] v;
 }
