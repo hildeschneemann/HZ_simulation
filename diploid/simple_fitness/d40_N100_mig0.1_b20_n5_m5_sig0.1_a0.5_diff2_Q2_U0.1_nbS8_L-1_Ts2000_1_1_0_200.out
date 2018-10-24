@@ -25,3 +25,18 @@ round: 11, last: 1, nbSign76, equi: 0, accGen: 22000
 round: 12, last: 1, nbSign84, equi: 0, accGen: 24000
 round: 13, last: 1, nbSign92, equi: 0, accGen: 26000
 2000 generations ont pris1407secondes
+round: 0, last: 0, nbSign0, equi: 0, accGen: 0
+round: 1, last: 1, nbSign7, equi: 0, accGen: 2000
+round: 2, last: 1, nbSign13, equi: 0, accGen: 4000
+round: 3, last: 1, nbSign23, equi: 0, accGen: 6000
+round: 4, last: 1, nbSign31, equi: 0, accGen: 8000
+round: 5, last: 1, nbSign37, equi: 0, accGen: 10000
+round: 6, last: 1, nbSign44, equi: 0, accGen: 12000
+round: 7, last: 1, nbSign50, equi: 0, accGen: 14000
+round: 8, last: 1, nbSign58, equi: 0, accGen: 16000
+round: 9, last: 1, nbSign62, equi: 0, accGen: 18000
+round: 10, last: 1, nbSign72, equi: 0, accGen: 20000
+round: 11, last: 1, nbSign79, equi: 0, accGen: 22000
+round: 12, last: 1, nbSign86, equi: 0, accGen: 24000
+round: 13, last: 1, nbSign94, equi: 0, accGen: 26000
+2000 generations ont pris3138secondes
