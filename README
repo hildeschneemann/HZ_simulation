@@ -29,5 +29,6 @@ pas: number of generations between subsequent saved generations
 During the simulation the number of times that the sign of the difference in allele frequency of locus 1between the current and last generation is recorded.
  When this reaches a threshold (set to 200), the simulation is said to have reached an equilibrium state. 
 If the allele frequency difference is 0, this also counts as a sign change. 
-Additionally there is a burn-in period of ... generations before the sign change is recorded.
-Once the equilibrium state is reached the simulation runs one more loop of Ts generations which are saved to the result file and used to generate the animation. 
+Additionally there is a burn-in period of 200 generations before the sign change is recorded.
+Once the equilibrium state is reached the simulation runs one more loop of Ts generations which are saved to the result file and used to generate the animation
+To avoid infinite runs in case something is broken/equilibrium couldn't be established, the simulation automatically stops after 100,000 generations.. 

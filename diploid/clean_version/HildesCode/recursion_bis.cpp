@@ -10,6 +10,9 @@
 using namespace std;
 
 #define MAXGEN 100000
+#define BURNIN 100
+#define SIGNCHANGES 10
+
 
 extern FILE * fichierE;
 extern FILE * fichierS;
@@ -84,8 +87,9 @@ void recursion(	int Dv, int Nv, double mv,
 	int nbSign = 0;
 	withrec = Lv == -1 ? false : true;
 	int round = 0;	
-	int nbW = lv * (lv + 1) / 2.0;
+	int nbW = (lv + 2) * (lv + 1) / 2.0;
 	int indexW = 0;
+
 
 	boost::dynamic_bitset<> tmp1;
 	boost::dynamic_bitset<> tmp2;
@@ -172,7 +176,28 @@ void recursion(	int Dv, int Nv, double mv,
 		if (last == 1)
 		{
 			fout.open(fileName);
+
+			// Make header output file
+			fout << "gen" << ", ";
+			for(i= 0; i < lv; i++)
+			{
+				for(j = 0; j < Dv; j++)
+				{	
+					fout << "d" << j << "l" << i << ", ";
+				}
+			}
+				
+			for (i = 0; i < Dv; i++)
+			{
+				for (j = 0; j < nbW; j++)
+				{
+					fout << "d" << i << "W" << Wtable[j] << ", ";
+				}
+			}
+			
+			fout << endl;
 		}
+
 		cout << "round: " << round << "\tnbSign: " << nbSign << "\tlast?: " << last << "\taccGen: " << accGen << "\n";
 	
 		for (gen=0; gen < tv; gen++)
@@ -328,33 +353,16 @@ void recursion(	int Dv, int Nv, double mv,
 			
 			if (gen % pasv == 0)
 			{
-				//indexGen = gen / pasv; 
-				
-				//Wtot = sort(Wtot.begin(), Wtot.end());
-			
-				//for (i = 0; i < Dv; i++)
-				//{
-				//	sumk =0;
-				//	
-				//	for ( j =0; j < nbW; j++)
-				//	{
-				//		k = 0;
-				//		do
-				//		{
-				//			k += 1;
-				//		}while (Wtot[sumk+1] == Wtot[sumk])
-				//			
-				//		Wsave[j][i] = k;	
-				//	}
-				//}
-		
-				// Allele frequency data
 				if (last == 1)
-				{
+				{	
+				
+					fout << gen << ", ";	
+		
+					// Allele frequency data
 
 					for (loc = 0; loc < lv; loc++)
 					{
-						fout << gen << "," <<loc << ",";
+						//fout << gen << "," <<loc << ",";
 
 						for (i = 0; i < Dv; i++)
 						{
@@ -370,10 +378,31 @@ void recursion(	int Dv, int Nv, double mv,
 							fout << d / twoN << ",";
 
 						}
-						fout << endl;
+						//fout << endl;
 
 					}
+
+					for (i = 0; i < Dv; i++)
+					{
+					
+						for ( j =0; j < nbW; j++)
+						{	
+							int histW = 0;
+
+							for ( ind = 0; ind < Nv; ind++)
+							{
+								if ( Wtot[ind + i * Nv] == Wtable[j])
+								{
+									histW += 1;
+								}
+							} 	
+							
+							fout << histW << ",";
+						}	
+					}
+					fout << endl;
 				}
+
 				
 				else if (last == 0)
 				{
@@ -388,7 +417,7 @@ void recursion(	int Dv, int Nv, double mv,
 				}	
 
 	 		
-				if (accGen > 200) //burnin period
+				if (accGen > BURNIN) //burnin period
 				{
 					if (delta_p ==0)
 						nbSign += 1;
@@ -412,7 +441,7 @@ void recursion(	int Dv, int Nv, double mv,
 				
 		} // end gen loop
 
-		if (nbSign > 100)
+		if (nbSign > SIGNCHANGES)
 		{
 			if (last ==0) 
 				last = 1;
