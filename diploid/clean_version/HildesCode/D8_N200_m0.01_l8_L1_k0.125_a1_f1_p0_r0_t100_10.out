@@ -1,0 +1,201 @@
+0	p2: 8	p12: 0	HI: 1	fitness: 1
+1	p2: 7	p12: 0	HI: 0.875	fitness: 0.386878
+2	p2: 7	p12: 1	HI: 0.9375	fitness: 0.401193
+3	p2: 6	p12: 0	HI: 0.75	fitness: 0.374494
+4	p2: 6	p12: 1	HI: 0.8125	fitness: 0.379266
+5	p2: 6	p12: 2	HI: 0.875	fitness: 0.386878
+6	p2: 5	p12: 0	HI: 0.625	fitness: 0.369363
+7	p2: 5	p12: 1	HI: 0.6875	fitness: 0.371364
+8	p2: 5	p12: 2	HI: 0.75	fitness: 0.374494
+9	p2: 5	p12: 3	HI: 0.8125	fitness: 0.379266
+10	p2: 4	p12: 0	HI: 0.5	fitness: 0.367879
+11	p2: 4	p12: 1	HI: 0.5625	fitness: 0.368242
+12	p2: 4	p12: 2	HI: 0.625	fitness: 0.369363
+13	p2: 4	p12: 3	HI: 0.6875	fitness: 0.371364
+14	p2: 4	p12: 4	HI: 0.75	fitness: 0.374494
+15	p2: 3	p12: 0	HI: 0.375	fitness: 0.369363
+16	p2: 3	p12: 1	HI: 0.4375	fitness: 0.368242
+17	p2: 3	p12: 2	HI: 0.5	fitness: 0.367879
+18	p2: 3	p12: 3	HI: 0.5625	fitness: 0.368242
+19	p2: 3	p12: 4	HI: 0.625	fitness: 0.369363
+20	p2: 3	p12: 5	HI: 0.6875	fitness: 0.371364
+21	p2: 2	p12: 0	HI: 0.25	fitness: 0.374494
+22	p2: 2	p12: 1	HI: 0.3125	fitness: 0.371364
+23	p2: 2	p12: 2	HI: 0.375	fitness: 0.369363
+24	p2: 2	p12: 3	HI: 0.4375	fitness: 0.368242
+25	p2: 2	p12: 4	HI: 0.5	fitness: 0.367879
+26	p2: 2	p12: 5	HI: 0.5625	fitness: 0.368242
+27	p2: 2	p12: 6	HI: 0.625	fitness: 0.369363
+28	p2: 1	p12: 0	HI: 0.125	fitness: 0.386878
+29	p2: 1	p12: 1	HI: 0.1875	fitness: 0.379266
+30	p2: 1	p12: 2	HI: 0.25	fitness: 0.374494
+31	p2: 1	p12: 3	HI: 0.3125	fitness: 0.371364
+32	p2: 1	p12: 4	HI: 0.375	fitness: 0.369363
+33	p2: 1	p12: 5	HI: 0.4375	fitness: 0.368242
+34	p2: 1	p12: 6	HI: 0.5	fitness: 0.367879
+35	p2: 1	p12: 7	HI: 0.5625	fitness: 0.368242
+36	p2: 0	p12: 0	HI: 0	fitness: 1
+37	p2: 0	p12: 1	HI: 0.0625	fitness: 0.401193
+38	p2: 0	p12: 2	HI: 0.125	fitness: 0.386878
+39	p2: 0	p12: 3	HI: 0.1875	fitness: 0.379266
+40	p2: 0	p12: 4	HI: 0.25	fitness: 0.374494
+41	p2: 0	p12: 5	HI: 0.3125	fitness: 0.371364
+42	p2: 0	p12: 6	HI: 0.375	fitness: 0.369363
+43	p2: 0	p12: 7	HI: 0.4375	fitness: 0.368242
+44	p2: 0	p12: 8	HI: 0.5	fitness: 0.367879
+round: 0	nbSign: 0	last?: 0	accGen: 0
+round: 1	nbSign: 0	last?: 0	accGen: 100
+round: 2	nbSign: 7	last?: 0	accGen: 200
+round: 3	nbSign: 11	last?: 1	accGen: 300
+100 generations ont pris2secondes
+0	p2: 8	p12: 0	HI: 1	fitness: 1
+1	p2: 7	p12: 0	HI: 0.875	fitness: 0.386878
+2	p2: 7	p12: 1	HI: 0.9375	fitness: 0.401193
+3	p2: 6	p12: 0	HI: 0.75	fitness: 0.374494
+4	p2: 6	p12: 1	HI: 0.8125	fitness: 0.379266
+5	p2: 6	p12: 2	HI: 0.875	fitness: 0.386878
+6	p2: 5	p12: 0	HI: 0.625	fitness: 0.369363
+7	p2: 5	p12: 1	HI: 0.6875	fitness: 0.371364
+8	p2: 5	p12: 2	HI: 0.75	fitness: 0.374494
+9	p2: 5	p12: 3	HI: 0.8125	fitness: 0.379266
+10	p2: 4	p12: 0	HI: 0.5	fitness: 0.367879
+11	p2: 4	p12: 1	HI: 0.5625	fitness: 0.368242
+12	p2: 4	p12: 2	HI: 0.625	fitness: 0.369363
+13	p2: 4	p12: 3	HI: 0.6875	fitness: 0.371364
+14	p2: 4	p12: 4	HI: 0.75	fitness: 0.374494
+15	p2: 3	p12: 0	HI: 0.375	fitness: 0.369363
+16	p2: 3	p12: 1	HI: 0.4375	fitness: 0.368242
+17	p2: 3	p12: 2	HI: 0.5	fitness: 0.367879
+18	p2: 3	p12: 3	HI: 0.5625	fitness: 0.368242
+19	p2: 3	p12: 4	HI: 0.625	fitness: 0.369363
+20	p2: 3	p12: 5	HI: 0.6875	fitness: 0.371364
+21	p2: 2	p12: 0	HI: 0.25	fitness: 0.374494
+22	p2: 2	p12: 1	HI: 0.3125	fitness: 0.371364
+23	p2: 2	p12: 2	HI: 0.375	fitness: 0.369363
+24	p2: 2	p12: 3	HI: 0.4375	fitness: 0.368242
+25	p2: 2	p12: 4	HI: 0.5	fitness: 0.367879
+26	p2: 2	p12: 5	HI: 0.5625	fitness: 0.368242
+27	p2: 2	p12: 6	HI: 0.625	fitness: 0.369363
+28	p2: 1	p12: 0	HI: 0.125	fitness: 0.386878
+29	p2: 1	p12: 1	HI: 0.1875	fitness: 0.379266
+30	p2: 1	p12: 2	HI: 0.25	fitness: 0.374494
+31	p2: 1	p12: 3	HI: 0.3125	fitness: 0.371364
+32	p2: 1	p12: 4	HI: 0.375	fitness: 0.369363
+33	p2: 1	p12: 5	HI: 0.4375	fitness: 0.368242
+34	p2: 1	p12: 6	HI: 0.5	fitness: 0.367879
+35	p2: 1	p12: 7	HI: 0.5625	fitness: 0.368242
+36	p2: 0	p12: 0	HI: 0	fitness: 1
+37	p2: 0	p12: 1	HI: 0.0625	fitness: 0.401193
+38	p2: 0	p12: 2	HI: 0.125	fitness: 0.386878
+39	p2: 0	p12: 3	HI: 0.1875	fitness: 0.379266
+40	p2: 0	p12: 4	HI: 0.25	fitness: 0.374494
+41	p2: 0	p12: 5	HI: 0.3125	fitness: 0.371364
+42	p2: 0	p12: 6	HI: 0.375	fitness: 0.369363
+43	p2: 0	p12: 7	HI: 0.4375	fitness: 0.368242
+44	p2: 0	p12: 8	HI: 0.5	fitness: 0.367879
+round: 0	nbSign: 0	last?: 0	accGen: 0
+round: 1	nbSign: 0	last?: 0	accGen: 100
+round: 2	nbSign: 5	last?: 0	accGen: 200
+round: 3	nbSign: 11	last?: 1	accGen: 300
+100 generations ont pris1secondes
+0	p2: 8	p12: 0	HI: 1	fitness: 1
+1	p2: 7	p12: 0	HI: 0.875	fitness: 0.386878
+2	p2: 7	p12: 1	HI: 0.9375	fitness: 0.401193
+3	p2: 6	p12: 0	HI: 0.75	fitness: 0.374494
+4	p2: 6	p12: 1	HI: 0.8125	fitness: 0.379266
+5	p2: 6	p12: 2	HI: 0.875	fitness: 0.386878
+6	p2: 5	p12: 0	HI: 0.625	fitness: 0.369363
+7	p2: 5	p12: 1	HI: 0.6875	fitness: 0.371364
+8	p2: 5	p12: 2	HI: 0.75	fitness: 0.374494
+9	p2: 5	p12: 3	HI: 0.8125	fitness: 0.379266
+10	p2: 4	p12: 0	HI: 0.5	fitness: 0.367879
+11	p2: 4	p12: 1	HI: 0.5625	fitness: 0.368242
+12	p2: 4	p12: 2	HI: 0.625	fitness: 0.369363
+13	p2: 4	p12: 3	HI: 0.6875	fitness: 0.371364
+14	p2: 4	p12: 4	HI: 0.75	fitness: 0.374494
+15	p2: 3	p12: 0	HI: 0.375	fitness: 0.369363
+16	p2: 3	p12: 1	HI: 0.4375	fitness: 0.368242
+17	p2: 3	p12: 2	HI: 0.5	fitness: 0.367879
+18	p2: 3	p12: 3	HI: 0.5625	fitness: 0.368242
+19	p2: 3	p12: 4	HI: 0.625	fitness: 0.369363
+20	p2: 3	p12: 5	HI: 0.6875	fitness: 0.371364
+21	p2: 2	p12: 0	HI: 0.25	fitness: 0.374494
+22	p2: 2	p12: 1	HI: 0.3125	fitness: 0.371364
+23	p2: 2	p12: 2	HI: 0.375	fitness: 0.369363
+24	p2: 2	p12: 3	HI: 0.4375	fitness: 0.368242
+25	p2: 2	p12: 4	HI: 0.5	fitness: 0.367879
+26	p2: 2	p12: 5	HI: 0.5625	fitness: 0.368242
+27	p2: 2	p12: 6	HI: 0.625	fitness: 0.369363
+28	p2: 1	p12: 0	HI: 0.125	fitness: 0.386878
+29	p2: 1	p12: 1	HI: 0.1875	fitness: 0.379266
+30	p2: 1	p12: 2	HI: 0.25	fitness: 0.374494
+31	p2: 1	p12: 3	HI: 0.3125	fitness: 0.371364
+32	p2: 1	p12: 4	HI: 0.375	fitness: 0.369363
+33	p2: 1	p12: 5	HI: 0.4375	fitness: 0.368242
+34	p2: 1	p12: 6	HI: 0.5	fitness: 0.367879
+35	p2: 1	p12: 7	HI: 0.5625	fitness: 0.368242
+36	p2: 0	p12: 0	HI: 0	fitness: 1
+37	p2: 0	p12: 1	HI: 0.0625	fitness: 0.401193
+38	p2: 0	p12: 2	HI: 0.125	fitness: 0.386878
+39	p2: 0	p12: 3	HI: 0.1875	fitness: 0.379266
+40	p2: 0	p12: 4	HI: 0.25	fitness: 0.374494
+41	p2: 0	p12: 5	HI: 0.3125	fitness: 0.371364
+42	p2: 0	p12: 6	HI: 0.375	fitness: 0.369363
+43	p2: 0	p12: 7	HI: 0.4375	fitness: 0.368242
+44	p2: 0	p12: 8	HI: 0.5	fitness: 0.367879
+round: 0	nbSign: 0	last?: 0	accGen: 0
+round: 1	nbSign: 0	last?: 0	accGen: 100
+round: 2	nbSign: 6	last?: 0	accGen: 200
+round: 3	nbSign: 13	last?: 1	accGen: 300
+100 generations ont pris2secondes
+0	p2: 8	p12: 0	HI: 1	fitness: 1
+1	p2: 7	p12: 0	HI: 0.875	fitness: 0.386878
+2	p2: 7	p12: 1	HI: 0.9375	fitness: 0.401193
+3	p2: 6	p12: 0	HI: 0.75	fitness: 0.374494
+4	p2: 6	p12: 1	HI: 0.8125	fitness: 0.379266
+5	p2: 6	p12: 2	HI: 0.875	fitness: 0.386878
+6	p2: 5	p12: 0	HI: 0.625	fitness: 0.369363
+7	p2: 5	p12: 1	HI: 0.6875	fitness: 0.371364
+8	p2: 5	p12: 2	HI: 0.75	fitness: 0.374494
+9	p2: 5	p12: 3	HI: 0.8125	fitness: 0.379266
+10	p2: 4	p12: 0	HI: 0.5	fitness: 0.367879
+11	p2: 4	p12: 1	HI: 0.5625	fitness: 0.368242
+12	p2: 4	p12: 2	HI: 0.625	fitness: 0.369363
+13	p2: 4	p12: 3	HI: 0.6875	fitness: 0.371364
+14	p2: 4	p12: 4	HI: 0.75	fitness: 0.374494
+15	p2: 3	p12: 0	HI: 0.375	fitness: 0.369363
+16	p2: 3	p12: 1	HI: 0.4375	fitness: 0.368242
+17	p2: 3	p12: 2	HI: 0.5	fitness: 0.367879
+18	p2: 3	p12: 3	HI: 0.5625	fitness: 0.368242
+19	p2: 3	p12: 4	HI: 0.625	fitness: 0.369363
+20	p2: 3	p12: 5	HI: 0.6875	fitness: 0.371364
+21	p2: 2	p12: 0	HI: 0.25	fitness: 0.374494
+22	p2: 2	p12: 1	HI: 0.3125	fitness: 0.371364
+23	p2: 2	p12: 2	HI: 0.375	fitness: 0.369363
+24	p2: 2	p12: 3	HI: 0.4375	fitness: 0.368242
+25	p2: 2	p12: 4	HI: 0.5	fitness: 0.367879
+26	p2: 2	p12: 5	HI: 0.5625	fitness: 0.368242
+27	p2: 2	p12: 6	HI: 0.625	fitness: 0.369363
+28	p2: 1	p12: 0	HI: 0.125	fitness: 0.386878
+29	p2: 1	p12: 1	HI: 0.1875	fitness: 0.379266
+30	p2: 1	p12: 2	HI: 0.25	fitness: 0.374494
+31	p2: 1	p12: 3	HI: 0.3125	fitness: 0.371364
+32	p2: 1	p12: 4	HI: 0.375	fitness: 0.369363
+33	p2: 1	p12: 5	HI: 0.4375	fitness: 0.368242
+34	p2: 1	p12: 6	HI: 0.5	fitness: 0.367879
+35	p2: 1	p12: 7	HI: 0.5625	fitness: 0.368242
+36	p2: 0	p12: 0	HI: 0	fitness: 1
+37	p2: 0	p12: 1	HI: 0.0625	fitness: 0.401193
+38	p2: 0	p12: 2	HI: 0.125	fitness: 0.386878
+39	p2: 0	p12: 3	HI: 0.1875	fitness: 0.379266
+40	p2: 0	p12: 4	HI: 0.25	fitness: 0.374494
+41	p2: 0	p12: 5	HI: 0.3125	fitness: 0.371364
+42	p2: 0	p12: 6	HI: 0.375	fitness: 0.369363
+43	p2: 0	p12: 7	HI: 0.4375	fitness: 0.368242
+44	p2: 0	p12: 8	HI: 0.5	fitness: 0.367879
+round: 0	nbSign: 0	last?: 0	accGen: 0
+round: 1	nbSign: 0	last?: 0	accGen: 100
+round: 2	nbSign: 5	last?: 0	accGen: 200
+round: 3	nbSign: 10	last?: 0	accGen: 300
+round: 4	nbSign: 15	last?: 1	accGen: 400
+100 generations ont pris2secondes

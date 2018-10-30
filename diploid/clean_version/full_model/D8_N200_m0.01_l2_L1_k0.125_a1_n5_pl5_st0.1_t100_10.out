@@ -1,0 +1,15 @@
+0	0	0.0430214
+0	1	-0.0430214
+2	0	0.0119105
+2	1	-0.0119105
+4	0	-0.0386595
+4	1	0.0386595
+6	0	0.00557619
+6	1	-0.00557619
+8	0	0.0325607
+8	1	-0.0325607
+round: 0	nbSign: 0	last?: 0	accGen: 0
+round: 1	nbSign: 0	last?: 0	accGen: 100
+round: 2	nbSign: 5	last?: 0	accGen: 200
+round: 3	nbSign: 12	last?: 1	accGen: 300
+100 generations ont pris1secondes
