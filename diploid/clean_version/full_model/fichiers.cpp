@@ -23,7 +23,7 @@ void ouvrirFichierE(char * param)
 // returns 1 if end of input file, else returns 0
 bool lireFichier(int & Dr, int & Nr, double & mr, 
 				int & lr, double & Lr,
-				double & kr, double & ar, int & nr, int & plr, double & str,
+				double & kr, double & ar, int & nr,
 				int & tr, int & pasr)
 {					 
 	int x;
@@ -44,8 +44,6 @@ bool lireFichier(int & Dr, int & Nr, double & mr,
 		fscanf(fichierE,"%lf ",&kr);
 		fscanf(fichierE,"%lf ",&ar);
 		fscanf(fichierE,"%d ",&nr);
-		fscanf(fichierE,"%d ",&plr);
-		fscanf(fichierE,"%lf ",&str);
 		
 		fscanf(fichierE,"%d ",&tr);
 		fscanf(fichierE,"%d ",&pasr);

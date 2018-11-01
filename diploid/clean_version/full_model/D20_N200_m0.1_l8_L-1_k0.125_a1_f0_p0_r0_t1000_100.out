@@ -1,0 +1,374 @@
+0	0	-0.0142325
+0	1	-0.046329
+0	2	0.000109979
+0	3	0.0361466
+0	4	0.0422564
+0	5	-0.0382874
+0	6	0.0166996
+0	7	0.0036363
+8	0	0.0426832
+8	1	-0.00707022
+8	2	0.0157521
+8	3	0.0158098
+8	4	0.0173452
+8	5	-0.0311108
+8	6	-0.0421783
+8	7	-0.011231
+16	0	0.00600358
+16	1	-0.0286804
+16	2	0.00982366
+16	3	0.0112819
+16	4	-0.0314714
+16	5	0.0085583
+16	6	0.0274085
+16	7	-0.00292418
+24	0	-0.0546494
+24	1	-0.00290343
+24	2	-0.0323865
+24	3	0.0332954
+24	4	-0.00240534
+24	5	0.0344868
+24	6	-0.0152812
+24	7	0.0398438
+32	0	-0.0651694
+32	1	0.0683591
+32	2	0.0172772
+32	3	0.0093316
+32	4	-0.0012502
+32	5	-0.0472592
+32	6	0.00507429
+32	7	0.0136366
+round: 0	nbSign: 0	last?: 0	accGen: 0
+round: 1	nbSign: 3	last?: 0	accGen: 1000
+round: 2	nbSign: 9	last?: 0	accGen: 2000
+round: 3	nbSign: 14	last?: 0	accGen: 3000
+round: 4	nbSign: 18	last?: 0	accGen: 4000
+round: 5	nbSign: 24	last?: 0	accGen: 5000
+round: 6	nbSign: 30	last?: 0	accGen: 6000
+round: 7	nbSign: 36	last?: 0	accGen: 7000
+round: 8	nbSign: 40	last?: 0	accGen: 8000
+round: 9	nbSign: 45	last?: 0	accGen: 9000
+round: 10	nbSign: 51	last?: 0	accGen: 10000
+round: 11	nbSign: 57	last?: 0	accGen: 11000
+round: 12	nbSign: 61	last?: 0	accGen: 12000
+round: 13	nbSign: 67	last?: 0	accGen: 13000
+round: 14	nbSign: 70	last?: 0	accGen: 14000
+round: 15	nbSign: 75	last?: 0	accGen: 15000
+round: 16	nbSign: 81	last?: 0	accGen: 16000
+round: 17	nbSign: 85	last?: 0	accGen: 17000
+round: 18	nbSign: 91	last?: 0	accGen: 18000
+round: 19	nbSign: 96	last?: 0	accGen: 19000
+round: 20	nbSign: 100	last?: 0	accGen: 20000
+round: 21	nbSign: 105	last?: 1	accGen: 21000
+1000 generations ont pris1103secondes
+0	0	0.0165614
+0	1	-0.0137141
+0	2	-0.00982802
+0	3	-0.00360899
+0	4	-0.000925147
+0	5	0.0406821
+0	6	-0.00535131
+0	7	-0.0238159
+8	0	0.0153976
+8	1	0.0282979
+8	2	0.00674239
+8	3	-0.00312311
+8	4	-0.0209146
+8	5	0.00260301
+8	6	0.00543046
+8	7	-0.0344337
+16	0	-0.030454
+16	1	0.0158085
+16	2	-0.0490263
+16	3	0.0206376
+16	4	-0.0342118
+16	5	-0.0257157
+16	6	0.0580762
+16	7	0.0448856
+24	0	-0.00604173
+24	1	-0.0467468
+24	2	-0.00840545
+24	3	0.0788705
+24	4	0.00656099
+24	5	-0.0292011
+24	6	0.0361963
+24	7	-0.0312328
+32	0	0.00125182
+32	1	-0.00535975
+32	2	0.0299303
+32	3	-0.019994
+32	4	-0.0292372
+32	5	-0.012909
+32	6	0.0476479
+32	7	-0.0113301
+round: 0	nbSign: 0	last?: 0	accGen: 0
+round: 1	nbSign: 5	last?: 0	accGen: 1000
+round: 2	nbSign: 9	last?: 0	accGen: 2000
+round: 3	nbSign: 13	last?: 0	accGen: 3000
+round: 4	nbSign: 18	last?: 0	accGen: 4000
+round: 5	nbSign: 21	last?: 0	accGen: 5000
+round: 6	nbSign: 26	last?: 0	accGen: 6000
+round: 7	nbSign: 31	last?: 0	accGen: 7000
+round: 8	nbSign: 36	last?: 0	accGen: 8000
+round: 9	nbSign: 42	last?: 0	accGen: 9000
+round: 10	nbSign: 48	last?: 0	accGen: 10000
+round: 11	nbSign: 52	last?: 0	accGen: 11000
+round: 12	nbSign: 57	last?: 0	accGen: 12000
+round: 13	nbSign: 62	last?: 0	accGen: 13000
+round: 14	nbSign: 66	last?: 0	accGen: 14000
+round: 15	nbSign: 70	last?: 0	accGen: 15000
+round: 16	nbSign: 77	last?: 0	accGen: 16000
+round: 17	nbSign: 81	last?: 0	accGen: 17000
+round: 18	nbSign: 85	last?: 0	accGen: 18000
+round: 19	nbSign: 90	last?: 0	accGen: 19000
+round: 20	nbSign: 96	last?: 0	accGen: 20000
+round: 21	nbSign: 101	last?: 1	accGen: 21000
+1000 generations ont pris1103secondes
+0	0	0.00348169
+0	1	0.0227181
+0	2	-0.0430879
+0	3	0.0223974
+0	4	-0.011488
+0	5	0.0194503
+0	6	-0.0187703
+0	7	0.00529878
+8	0	0.0210744
+8	1	-0.0428669
+8	2	0.0169627
+8	3	-0.0128922
+8	4	-0.00782724
+8	5	0.0160486
+8	6	0.0231568
+8	7	-0.0136562
+16	0	0.00869801
+16	1	0.0213316
+16	2	0.00225201
+16	3	-0.0235371
+16	4	0.0333921
+16	5	0.0469763
+16	6	-0.0292727
+16	7	-0.0598402
+24	0	0.066214
+24	1	-0.00916044
+24	2	-0.000218676
+24	3	-0.0709032
+24	4	0.0114194
+24	5	-0.00881997
+24	6	-0.00856126
+24	7	0.0200301
+32	0	0.0329196
+32	1	-0.0352535
+32	2	0.0163232
+32	3	0.0502983
+32	4	-0.0192336
+32	5	-0.0599657
+32	6	-0.0260525
+32	7	0.0409643
+round: 0	nbSign: 0	last?: 0	accGen: 0
+round: 1	nbSign: 4	last?: 0	accGen: 1000
+round: 2	nbSign: 9	last?: 0	accGen: 2000
+round: 3	nbSign: 14	last?: 0	accGen: 3000
+round: 4	nbSign: 19	last?: 0	accGen: 4000
+round: 5	nbSign: 25	last?: 0	accGen: 5000
+round: 6	nbSign: 30	last?: 0	accGen: 6000
+round: 7	nbSign: 34	last?: 0	accGen: 7000
+round: 8	nbSign: 39	last?: 0	accGen: 8000
+round: 9	nbSign: 44	last?: 0	accGen: 9000
+round: 10	nbSign: 48	last?: 0	accGen: 10000
+round: 11	nbSign: 53	last?: 0	accGen: 11000
+round: 12	nbSign: 60	last?: 0	accGen: 12000
+round: 13	nbSign: 64	last?: 0	accGen: 13000
+round: 14	nbSign: 70	last?: 0	accGen: 14000
+round: 15	nbSign: 76	last?: 0	accGen: 15000
+round: 16	nbSign: 82	last?: 0	accGen: 16000
+round: 17	nbSign: 86	last?: 0	accGen: 17000
+round: 18	nbSign: 90	last?: 0	accGen: 18000
+round: 19	nbSign: 96	last?: 0	accGen: 19000
+round: 20	nbSign: 100	last?: 0	accGen: 20000
+round: 21	nbSign: 106	last?: 1	accGen: 21000
+1000 generations ont pris1104secondes
+0	0	0.039316
+0	1	0.0054613
+0	2	-0.000646162
+0	3	0.0124757
+0	4	-0.00494275
+0	5	-0.0528366
+0	6	-0.0196494
+0	7	0.0208219
+8	0	0.0197863
+8	1	0.0787989
+8	2	-0.0356749
+8	3	-0.0200411
+8	4	0.0112249
+8	5	-0.0264561
+8	6	0.000285656
+8	7	-0.0279237
+16	0	0.0237965
+16	1	0.0223671
+16	2	-0.0481474
+16	3	0.0252807
+16	4	0.00600359
+16	5	-0.0417794
+16	6	0.00365232
+16	7	0.00882663
+24	0	-0.00508217
+24	1	-0.0366235
+24	2	0.0134494
+24	3	0.00851771
+24	4	-0.00394228
+24	5	-0.0431415
+24	6	0.02524
+24	7	0.0415824
+32	0	-0.0331761
+32	1	0.0436381
+32	2	0.0364316
+32	3	-0.0215877
+32	4	-0.0222678
+32	5	-0.00880605
+32	6	-0.015805
+32	7	0.021573
+round: 0	nbSign: 0	last?: 0	accGen: 0
+round: 1	nbSign: 5	last?: 0	accGen: 1000
+round: 2	nbSign: 10	last?: 0	accGen: 2000
+round: 3	nbSign: 15	last?: 0	accGen: 3000
+round: 4	nbSign: 20	last?: 0	accGen: 4000
+round: 5	nbSign: 26	last?: 0	accGen: 5000
+round: 6	nbSign: 31	last?: 0	accGen: 6000
+round: 7	nbSign: 35	last?: 0	accGen: 7000
+round: 8	nbSign: 41	last?: 0	accGen: 8000
+round: 9	nbSign: 46	last?: 0	accGen: 9000
+round: 10	nbSign: 51	last?: 0	accGen: 10000
+round: 11	nbSign: 57	last?: 0	accGen: 11000
+round: 12	nbSign: 62	last?: 0	accGen: 12000
+round: 13	nbSign: 67	last?: 0	accGen: 13000
+round: 14	nbSign: 73	last?: 0	accGen: 14000
+round: 15	nbSign: 77	last?: 0	accGen: 15000
+round: 16	nbSign: 83	last?: 0	accGen: 16000
+round: 17	nbSign: 87	last?: 0	accGen: 17000
+round: 18	nbSign: 93	last?: 0	accGen: 18000
+round: 19	nbSign: 100	last?: 0	accGen: 19000
+round: 20	nbSign: 106	last?: 1	accGen: 20000
+1000 generations ont pris1486secondes
+0	0	-0.0692454
+0	1	-0.0231717
+0	2	0.0246222
+0	3	-0.0197562
+0	4	0.0253891
+0	5	0.0130916
+0	6	0.0589014
+0	7	-0.00983089
+8	0	0.0174085
+8	1	-0.010661
+8	2	-0.00875743
+8	3	-0.0097407
+8	4	-0.0151684
+8	5	-0.0192835
+8	6	0.00194838
+8	7	0.0442541
+16	0	-0.0298885
+16	1	-0.0383966
+16	2	0.0479085
+16	3	-0.0169698
+16	4	0.0202771
+16	5	0.0430629
+16	6	-0.0277479
+16	7	0.0017543
+24	0	0.0271189
+24	1	0.0320316
+24	2	0.0494101
+24	3	-0.0929756
+24	4	-0.0232076
+24	5	-0.0119496
+24	6	0.0355289
+24	7	-0.0159566
+32	0	-0.0225087
+32	1	0.0485311
+32	2	-0.0491384
+32	3	0.0437273
+32	4	-0.00430915
+32	5	0.024043
+32	6	-0.0416853
+32	7	0.00134016
+round: 0	nbSign: 0	last?: 0	accGen: 0
+round: 1	nbSign: 3	last?: 0	accGen: 1000
+round: 2	nbSign: 10	last?: 0	accGen: 2000
+round: 3	nbSign: 15	last?: 0	accGen: 3000
+round: 4	nbSign: 20	last?: 0	accGen: 4000
+round: 5	nbSign: 26	last?: 0	accGen: 5000
+round: 6	nbSign: 31	last?: 0	accGen: 6000
+round: 7	nbSign: 36	last?: 0	accGen: 7000
+round: 8	nbSign: 41	last?: 0	accGen: 8000
+round: 9	nbSign: 45	last?: 0	accGen: 9000
+round: 10	nbSign: 49	last?: 0	accGen: 10000
+round: 11	nbSign: 53	last?: 0	accGen: 11000
+round: 12	nbSign: 56	last?: 0	accGen: 12000
+round: 13	nbSign: 62	last?: 0	accGen: 13000
+round: 14	nbSign: 68	last?: 0	accGen: 14000
+round: 15	nbSign: 74	last?: 0	accGen: 15000
+round: 16	nbSign: 80	last?: 0	accGen: 16000
+round: 17	nbSign: 86	last?: 0	accGen: 17000
+round: 18	nbSign: 93	last?: 0	accGen: 18000
+round: 19	nbSign: 99	last?: 0	accGen: 19000
+round: 20	nbSign: 105	last?: 1	accGen: 20000
+1000 generations ont pris1491secondes
+0	0	0.0518681
+0	1	-0.00480769
+0	2	-0.0524469
+0	3	0.000361673
+0	4	0.0272676
+0	5	0.0295359
+0	6	-0.0371757
+0	7	-0.0146031
+8	0	0.0719522
+8	1	-0.0500154
+8	2	-0.0612255
+8	3	-0.00256415
+8	4	0.014714
+8	5	-0.0505304
+8	6	0.0145893
+8	7	0.06308
+16	0	0.0634027
+16	1	-0.0754914
+16	2	-0.0234906
+16	3	0.041249
+16	4	0.00804912
+16	5	-0.00231985
+16	6	0.0175425
+16	7	-0.0289415
+24	0	0.031169
+24	1	0.0192886
+24	2	0.0168081
+24	3	0.0082013
+24	4	-0.0477808
+24	5	-0.00511083
+24	6	-0.0322248
+24	7	0.00964952
+32	0	0.00968322
+32	1	-0.0168365
+32	2	0.0447946
+32	3	-0.021666
+32	4	-0.0399062
+32	5	-0.00618748
+32	6	-0.00654551
+32	7	0.0366638
+round: 0	nbSign: 0	last?: 0	accGen: 0
+round: 1	nbSign: 4	last?: 0	accGen: 1000
+round: 2	nbSign: 9	last?: 0	accGen: 2000
+round: 3	nbSign: 15	last?: 0	accGen: 3000
+round: 4	nbSign: 19	last?: 0	accGen: 4000
+round: 5	nbSign: 25	last?: 0	accGen: 5000
+round: 6	nbSign: 30	last?: 0	accGen: 6000
+round: 7	nbSign: 36	last?: 0	accGen: 7000
+round: 8	nbSign: 42	last?: 0	accGen: 8000
+round: 9	nbSign: 46	last?: 0	accGen: 9000
+round: 10	nbSign: 52	last?: 0	accGen: 10000
+round: 11	nbSign: 59	last?: 0	accGen: 11000
+round: 12	nbSign: 64	last?: 0	accGen: 12000
+round: 13	nbSign: 71	last?: 0	accGen: 13000
+round: 14	nbSign: 76	last?: 0	accGen: 14000
+round: 15	nbSign: 82	last?: 0	accGen: 15000
+round: 16	nbSign: 89	last?: 0	accGen: 16000
+round: 17	nbSign: 95	last?: 0	accGen: 17000
+round: 18	nbSign: 100	last?: 0	accGen: 18000
+round: 19	nbSign: 104	last?: 1	accGen: 19000
+1000 generations ont pris2187secondes

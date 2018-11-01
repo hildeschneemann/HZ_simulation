@@ -94,7 +94,7 @@ void recursion(	int Dv, int Nv, double mv,
 	int nbSign = 0;
 	withrec = Lv == -1 ? false : true;
 	int round = 0;	
-	int nbW = (lv + 2) * (lv + 1) / 2.0;
+	int nbW = lv + 1;
 	int indexW = 0;
 
 

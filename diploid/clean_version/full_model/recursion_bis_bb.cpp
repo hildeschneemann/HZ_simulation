@@ -10,8 +10,8 @@
 using namespace std;
 
 #define MAXGEN 100000
-#define BURNIN 100
-#define SIGNCHANGES 10
+#define BURNIN 200
+#define SIGNCHANGES 100
 
 
 extern FILE * fichierE;
@@ -41,8 +41,6 @@ Lv: genome map length (mean nb of cross-overs per meiosis)
 kv: curvature of fitness function (cf Gros et al 2009 Genetics)
 av: strength of selection (steepness of fitness function)
 nv: number of phenotypic dimensions (complexity)
-plv: number of dimensions affected by a mutation (pleiotropy)
-stv: mutational step sizes along each phenotypic axis
 
 * Simulation parameters
 tv: number of generations that are saved and after which the
@@ -53,7 +51,7 @@ pasv: generation steps
 
 void recursion(	int Dv, int Nv, double mv, 
 				int lv, double Lv,
-				double kv, double av, int nv, int plv, double stv,
+				double kv, double av, int nv,
 				int tv, int pasv)
 
 {
@@ -92,7 +90,7 @@ void recursion(	int Dv, int Nv, double mv,
 	stringstream nameF;
 	nameF << "res_D" << Dv << "_N" << Nv << "_m" << mv << 
 		"_l" << lv << "_L" << Lv << 
-		"_k" << kv << "_a" << av << "_n" << nv << "_pl" << plv << "_st" << stv <<
+		"_k" << kv << "_a" << av << "_n" << nv <<
 		"_t" << tv << ".txt";
 	nameF >> fileName;
 
@@ -143,11 +141,11 @@ void recursion(	int Dv, int Nv, double mv,
 	for (i = 0; i < nv; i++)
 	{
 		nb = lv * i;
-		brownian_bridge(Brown, lv+1);
+		brownian_bridge(Brown, lv+1, nv);
 		for (j = 0; j < lv; j++)
 		{
 		//	cout << "ok before mut?\n";
-			mutations[nb + j] = stv * (Brown[j+1] - Brown[j]);
+			mutations[nb + j] = Brown[j+1] - Brown[j];
 			cout << nb << "\t" << j << "\t" << mutations[nb + j] << "\n";
 		}
 	}

@@ -22,11 +22,11 @@ struct chr
 void ouvrirFichierE(char * param);
 bool lireFichier(int & Dr, int & Nr, double & mr, 
 				int & lr, double & Lr,
-				double & kr, double & ar, int & nr, int & plr, double & str,
+				double & kr, double & ar, int & nr,
 				int & tr, int & pasr);
 void recursion(int Dv, int Nv, double mv, 
 				int lv, double Lv,
-				double kv, double av, int nv, int plv, double stv,
+				double kv, double av, int nv,
 				int tv, int pasv);
 double gammln(const double xx);
 double poisdev(const double xm);
@@ -35,5 +35,5 @@ double binldev(const double pp, const int n);
 void rec(chr &res, chr &c1, chr &c2, double R, int nS);
 boost::dynamic_bitset<> RandomMask(int N);
 void freerec(chr &res, chr &c1, chr &c2, int nS);
-void brownian_bridge(double * Brown, int nbSv);
+void brownian_bridge(double * Brown, int lv, int nv);
 #endif

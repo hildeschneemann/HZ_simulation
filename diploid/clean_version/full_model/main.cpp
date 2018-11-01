@@ -18,8 +18,8 @@ int main(int argc, char * argv[])
 {
 	// definitions of variables:
 		
-	int D, N, l, t, n, pl, pas;
-	double m, L, k, a, st;
+	int D, N, l, t, n, pas;
+	double m, L, k, a;
 	
 	// opens input and output files:
 
@@ -32,7 +32,7 @@ int main(int argc, char * argv[])
 	{
 		// reads parameter values;
 
-		fin = lireFichier( D,  N,  m, l,  L, k,  a,  n,  pl,  st, t,  pas);
+		fin = lireFichier( D,  N,  m, l,  L, k,  a,  n, t,  pas);
 
 		if (!fin)
 		{
@@ -42,7 +42,7 @@ int main(int argc, char * argv[])
 
 			// runs the simulation:
 
-			recursion( D,  N,  m, l,  L, k,  a,  n,  pl,  st, t,  pas);
+			recursion( D,  N,  m, l,  L, k,  a,  n, t,  pas);
 
 			no++;
 		}

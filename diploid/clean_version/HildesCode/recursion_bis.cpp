@@ -10,8 +10,8 @@
 using namespace std;
 
 #define MAXGEN 100000
-#define BURNIN 100
-#define SIGNCHANGES 10
+#define BURNIN 200
+#define SIGNCHANGES 100
 
 
 extern FILE * fichierE;

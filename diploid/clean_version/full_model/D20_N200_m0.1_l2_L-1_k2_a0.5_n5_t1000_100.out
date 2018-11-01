@@ -1,0 +1,24 @@
+0	0	0.128
+0	1	-0.128
+2	0	-0.283975
+2	1	0.283975
+4	0	-0.156879
+4	1	0.156879
+6	0	0.224174
+6	1	-0.224174
+8	0	-0.0986045
+8	1	0.0986045
+round: 0	nbSign: 0	last?: 0	accGen: 0
+round: 1	nbSign: 2	last?: 0	accGen: 1000
+round: 2	nbSign: 6	last?: 0	accGen: 2000
+round: 3	nbSign: 15	last?: 0	accGen: 3000
+round: 4	nbSign: 25	last?: 0	accGen: 4000
+round: 5	nbSign: 35	last?: 0	accGen: 5000
+round: 6	nbSign: 45	last?: 0	accGen: 6000
+round: 7	nbSign: 55	last?: 0	accGen: 7000
+round: 8	nbSign: 65	last?: 0	accGen: 8000
+round: 9	nbSign: 75	last?: 0	accGen: 9000
+round: 10	nbSign: 85	last?: 0	accGen: 10000
+round: 11	nbSign: 95	last?: 0	accGen: 11000
+round: 12	nbSign: 105	last?: 1	accGen: 12000
+1000 generations ont pris1430secondes
