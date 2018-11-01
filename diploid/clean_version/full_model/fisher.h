@@ -36,4 +36,5 @@ void rec(chr &res, chr &c1, chr &c2, double R, int nS);
 boost::dynamic_bitset<> RandomMask(int N);
 void freerec(chr &res, chr &c1, chr &c2, int nS);
 void brownian_bridge(double * Brown, int lv, int nv);
+void backcrosses(chr * tmp, double * mutations, int lv, int nv, int Lv, double kd2, double av, int twoND, int nb4, bool withrec);
 #endif

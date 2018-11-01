@@ -73,7 +73,7 @@ void recursion(	int Dv, int Nv, double mv,
 	int bv = Dv / 2;
 	int ND1 = twoN * bv;
 	bool sign = true;
-	bool equi = false;
+	bool equi = true;
 	bool last = 0;
 	int nbSign = 0;
 	withrec = Lv == -1 ? false : true;
@@ -93,6 +93,15 @@ void recursion(	int Dv, int Nv, double mv,
 		"_k" << kv << "_a" << av << "_n" << nv <<
 		"_t" << tv << ".txt";
 	nameF >> fileName;
+
+	string fileName2;
+	stringstream nameF2;
+	nameF2 << "mutEff_D" << Dv << "_N" << Nv << "_m" << mv << 
+		"_l" << lv << "_L" << Lv << 
+		"_k" << kv << "_a" << av << "_n" << nv <<
+		"_t" << tv << ".txt";
+	nameF2 >> fileName2;
+
 
 	int accGen = 0; //which generations are recorded
 	
@@ -123,6 +132,7 @@ void recursion(	int Dv, int Nv, double mv,
 
 
 	ofstream fout;
+	ofstream fout2;
 	
 	// initialization: allele 0 is fixed at all selected loci:
 
@@ -131,10 +141,12 @@ void recursion(	int Dv, int Nv, double mv,
 		pop[i].sel.resize(lv);
         temp[i].sel.resize(lv);
 		if(i < ND1) //complete divergence
+		{
 			pop[i].sel.flip();
 			temp[i].sel.flip();
+		}
     }	
-	
+	fout2.open(fileName2);	
 	
 	for (i = 0; i < (lv * nv); i++)
 		mutations[i] = 0;
@@ -146,13 +158,15 @@ void recursion(	int Dv, int Nv, double mv,
 		{
 		//	cout << "ok before mut?\n";
 			mutations[nb + j] = Brown[j+1] - Brown[j];
-			cout << nb << "\t" << j << "\t" << mutations[nb + j] << "\n";
+			fout2 << nb << "\t" << j << "\t" << mutations[nb + j] << "\n";
 		}
 	}
 	
 
 	
    
+	backcrosses(temp, mutations, lv, nv, Lv, kd2, av, twoND, nb4, withrec);
+	
     // generations:
 	while(equi == false & accGen < MAXGEN)
 	{
@@ -178,7 +192,7 @@ void recursion(	int Dv, int Nv, double mv,
 			fout << endl;
 		}
 
-		cout << "round: " << round << "\tnbSign: " << nbSign << "\tlast?: " << last << "\taccGen: " << accGen << "\n";
+		//cout << "round: " << round << "\tnbSign: " << nbSign << "\tlast?: " << last << "\taccGen: " << accGen << "\n";
 	
 		for (gen=0; gen < tv; gen++)
 		{
@@ -256,7 +270,8 @@ void recursion(	int Dv, int Nv, double mv,
 
 					
 					nb2 = Nv*j;
-					
+				
+
 					// sampling first parent:
 					
 					do
@@ -288,8 +303,10 @@ void recursion(	int Dv, int Nv, double mv,
 					else
 						freerec(temp[2*nb4+1], pop[2*par2], pop[2*par2+1], lv);
 		
-				}
 				
+				
+
+				}	
 			// philopatric individuals:
 				
 				for (ind = nbMig; ind < Nv; ind++)
@@ -427,7 +444,7 @@ void recursion(	int Dv, int Nv, double mv,
 
 	fin = time(0);
 	int temps = int(difftime(fin, debut));
-	cout << tv << " generations ont pris" << temps << "secondes\n";
+	//cout << tv << " generations ont pris" << temps << "secondes\n";
 
 
 	

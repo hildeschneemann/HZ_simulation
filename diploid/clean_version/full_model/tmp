@@ -1,0 +1,70 @@
+#include "fisher.h"
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <bitset>
+#include <string>
+#include <random>
+#include <boost/dynamic_bitset.hpp>
+using namespace std;
+
+
+double getfitness2(double d, double kd2, double a)
+{
+	double sz2 = d * d;
+	return(exp(-a * pow(sz2,kd2)));
+}
+
+
+void backcrosses(chr * tmp, double * mutations, int lv, int nv, int Lv, double kd2, double av, int twoND,int nb4, bool withrec)
+{
+	int nb2 = 0;
+	chr * bcs = new chr [twoND];
+	double * bcs_W = new double [1000];
+	int i, loc, k;
+	double d, sz2, w, bcs_mean, bcs_var;
+	
+	for (i = 0; i < 1000; i++)
+	{
+
+		// create backcross individual
+		if (withrec)
+			rec(bcs[i], tmp[2*nb4+1],tmp[2*nb4], Lv, lv);
+		else
+			freerec(bcs[i], tmp[2*nb4+1],	tmp[2*nb4], lv);
+		
+		bcs[i+1].sel.resize(lv);
+		
+		
+		nb2 = 2 * i;
+		sz2 = 0;
+
+		for (k = 0; k < nv; k++)  // phenotypes of the individual
+		{
+			d = 0;
+			for (loc = 0; loc < lv; loc++)
+			{
+				if (bcs[nb2].sel[loc] == 1)
+					d += mutations[lv * k + loc];
+				if(bcs[nb2+1].sel[loc] == 1)
+					d+= mutations[lv *k + loc];
+			}
+			
+			sz2 += d * d;
+		}
+
+		w = getfitness2(d, kd2, av);
+		bcs_W[nb2/2] = w;
+		bcs_mean += w;
+	
+	}
+	
+	bcs_mean /= 1000;
+	
+	for (i =0; i < 1000; i++)
+	{
+		bcs_var += (bcs_W[i] - bcs_mean) * (bcs_W[i] - bcs_mean);
+	}
+	bcs_var /= (1000 - 1);
+	cout << "backcross fitness mean: " << bcs_mean << "backcross fitness variance: " << bcs_var;
+}
