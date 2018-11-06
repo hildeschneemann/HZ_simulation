@@ -54,3 +54,5 @@ round: 12	nbSign: 87	last?: 0	accGen: 12000
 round: 13	nbSign: 97	last?: 0	accGen: 13000
 round: 14	nbSign: 107	last?: 1	accGen: 14000
 1000 generations ont pris1063secondes
+0.258826, 0.0195574
+1000 generations ont pris1068secondes

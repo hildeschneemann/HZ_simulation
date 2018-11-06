@@ -1,0 +1,17 @@
+theta: 7.4641
+0	p2: 0	fitness: 1
+theta: 7.4641
+1	p2: 0.2	fitness: 0.205744
+theta: 7.4641
+2	p2: 0.4	fitness: 0.00861561
+theta: 7.4641
+3	p2: 0.6	fitness: 0.408616
+theta: 7.4641
+4	p2: 0.8	fitness: 1.40574
+theta: 7.4641
+5	p2: 1	fitness: 3
+round: 0	nbSign: 0	last?: 0	accGen: 0
+round: 1	nbSign: 5	last?: 0	accGen: 1000
+round: 2	nbSign: 9	last?: 0	accGen: 2000
+round: 3	nbSign: 15	last?: 1	accGen: 3000
+1000 generations ont pris20secondes

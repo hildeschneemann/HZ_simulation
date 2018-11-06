@@ -1,0 +1,28 @@
+#!/bin/bash
+# generic submission file to configure for SGE
+# Beginning of SGE Options (all options begin with '#$')
+# Define shell to use for this job (/bin/sh here)
+#$ -S /bin/sh
+# Job name
+#$ -N D2_N200_m0.0170_l5_L-1_k2_a0.4_f0_p0_r1_t1000_100
+# Using current working directory (otherwise, you will have to use '#$ wd /path/to/run')
+#$ -cwd
+# job time limits (h_rt is required [s_rt == software time limit / h_rt == hardware time limit])
+# time limit on small.q is 10:00:00
+#$ -l h_rt=10:00:00
+# choose to run on a specific queue
+# (qconf -sql (to list queues) qconf -sq queue_name (to print informations on this queue))
+#$ -q small.q
+# Redirects the standard output to the named file.
+#$ -o D2_N200_m0.0170_l5_L-1_k2_a0.4_f0_p0_r1_t1000_100.out
+# merge standard and error outputs
+#$ -j y
+# Export all my environment variables into job runtime context
+#$ -V
+# other interesting options : -t n (for n tasks array), -sync y (to wait until job is finished),
+# -v PATH (to export only PATH variable))
+# ...
+## for more informations "man qsub"
+
+module load singularity-2.5.1
+singularity exec /home/hschneemann/ubuntu_Hdf5_Boost.simg ./a.out paramfiles/param_D2_N200_m0.0170_l5_L-1_k2_a0.4_f0_p0_r1_t1000_100.txt

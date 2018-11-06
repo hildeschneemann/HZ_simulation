@@ -32,3 +32,5 @@ round: 20	nbSign: 95	last?: 0	accGen: 20000
 round: 21	nbSign: 100	last?: 0	accGen: 21000
 round: 22	nbSign: 106	last?: 1	accGen: 22000
 1000 generations ont pris1126secondes
+0.0896234, 0.0126827
+1000 generations ont pris1931secondes

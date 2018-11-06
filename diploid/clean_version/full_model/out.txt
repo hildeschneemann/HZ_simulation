@@ -1,80 +1,80 @@
-1,0.160286, 0.0605795
-1,0.135415, 0.0573278
-1,0.218139, 0.0606108
-1,0.50362, 0.340209
-1,0.187463, 0.0496853
-1,0.28754, 0.115731
-1,0.230094, 0.0867315
-1,0.286147, 0.0942484
-1,0.15099, 0.0150432
-1,0.200742, 0.0654035
-2,0.271443, 0.0617133
-2,0.304606, 0.062876
-2,0.534765, 0.379004
-2,0.214308, 0.0303828
-2,0.0844424, 0.00537872
-2,0.34597, 0.128661
-2,0.219818, 0.0256344
-2,0.306349, 0.0505841
-2,0.331724, 0.0690325
-2,0.200655, 0.0322951
-5,0.263139, 0.0207926
-5,0.312612, 0.0667689
-5,0.168216, 0.017281
-5,0.188575, 0.00834063
-5,0.155226, 0.00637126
-5,0.135986, 0.00618832
-5,0.203759, 0.0127543
-5,0.237028, 0.029796
-5,0.272595, 0.0387069
-5,0.217276, 0.0193983
-10,0.160765, 0.0065941
-10,0.174965, 0.0060085
-10,0.204777, 0.007242
-10,0.239302, 0.00762131
-10,0.229576, 0.00990374
-10,0.154713, 0.00507336
-10,0.177837, 0.00696381
-10,0.269035, 0.012849
-10,0.180427, 0.00680569
-10,0.187296, 0.00644785
-20,0.214469, 0.00307505
-20,0.204135, 0.00101307
-20,0.218173, 0.00237805
-20,0.185688, 0.00289764
-20,0.206585, 0.00564667
-20,0.200766, 0.00426722
-20,0.216291, 0.00281837
-20,0.16137, 0.00419314
-20,0.17128, 0.0029032
-20,0.170218, 0.00277826
-50,0.18726, 0.00125071
-50,0.174058, 0.00116935
-50,0.22077, 0.00215024
-50,0.218709, 0.00237356
-50,0.191885, 0.000700428
-50,0.213486, 0.00161597
-50,0.184177, 0.00239121
-50,0.178596, 0.00210416
-50,0.195239, 0.00225058
-50,0.206917, 0.00251551
-100,0.18964, 0.00137951
-100,0.215159, 0.0012928
-100,0.175749, 0.00277189
-100,0.22159, 0.00125942
-100,0.209188, 0.000889802
-100,0.208698, 0.00122379
-100,0.192285, 0.00136455
-100,0.205211, 0.00104849
-100,0.213839, 0.0021902
-100,0.218112, 0.00129483
-1000,0.199927, 0.000622756
-1000,0.219378, 0.000537617
-1000,0.21173, 0.000736802
-1000,0.194748, 0.0016082
-1000,0.195909, 0.0016457
-1000,0.195018, 0.00124617
-1000,0.21149, 0.000438657
-1000,0.204279, 0.000675911
-1000,0.19873, 0.000754176
-1000,0.204633, 0.00253539
+1,100 generations ont pris48secondes
+1,100 generations ont pris47secondes
+1,100 generations ont pris49secondes
+1,100 generations ont pris49secondes
+1,100 generations ont pris81secondes
+1,100 generations ont pris48secondes
+1,100 generations ont pris48secondes
+1,100 generations ont pris48secondes
+1,100 generations ont pris48secondes
+1,100 generations ont pris48secondes
+2,100 generations ont pris48secondes
+2,100 generations ont pris48secondes
+2,100 generations ont pris55secondes
+2,100 generations ont pris48secondes
+2,100 generations ont pris48secondes
+2,100 generations ont pris83secondes
+2,100 generations ont pris51secondes
+2,100 generations ont pris83secondes
+2,100 generations ont pris75secondes
+2,100 generations ont pris49secondes
+5,100 generations ont pris51secondes
+5,100 generations ont pris49secondes
+5,100 generations ont pris83secondes
+5,100 generations ont pris55secondes
+5,100 generations ont pris80secondes
+5,100 generations ont pris48secondes
+5,100 generations ont pris48secondes
+5,100 generations ont pris52secondes
+5,100 generations ont pris79secondes
+5,100 generations ont pris56secondes
+10,100 generations ont pris52secondes
+10,100 generations ont pris80secondes
+10,100 generations ont pris59secondes
+10,100 generations ont pris67secondes
+10,100 generations ont pris80secondes
+10,100 generations ont pris55secondes
+10,100 generations ont pris58secondes
+10,100 generations ont pris76secondes
+10,100 generations ont pris85secondes
+10,100 generations ont pris78secondes
+20,100 generations ont pris57secondes
+20,100 generations ont pris57secondes
+20,100 generations ont pris85secondes
+20,100 generations ont pris81secondes
+20,100 generations ont pris67secondes
+20,100 generations ont pris57secondes
+20,100 generations ont pris61secondes
+20,100 generations ont pris84secondes
+20,100 generations ont pris70secondes
+20,100 generations ont pris61secondes
+50,100 generations ont pris89secondes
+50,100 generations ont pris84secondes
+50,100 generations ont pris85secondes
+50,100 generations ont pris93secondes
+50,100 generations ont pris67secondes
+50,100 generations ont pris78secondes
+50,100 generations ont pris77secondes
+50,100 generations ont pris73secondes
+50,100 generations ont pris83secondes
+50,100 generations ont pris62secondes
+100,100 generations ont pris94secondes
+100,100 generations ont pris92secondes
+100,100 generations ont pris75secondes
+100,100 generations ont pris101secondes
+100,100 generations ont pris87secondes
+100,100 generations ont pris89secondes
+100,100 generations ont pris96secondes
+100,100 generations ont pris94secondes
+100,100 generations ont pris87secondes
+100,100 generations ont pris64secondes
+1000,100 generations ont pris155secondes
+1000,100 generations ont pris196secondes
+1000,100 generations ont pris185secondes
+1000,100 generations ont pris219secondes
+1000,100 generations ont pris202secondes
+1000,100 generations ont pris172secondes
+1000,100 generations ont pris164secondes
+1000,100 generations ont pris194secondes
+1000,100 generations ont pris204secondes
+1000,100 generations ont pris199secondes

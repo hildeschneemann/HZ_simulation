@@ -17,7 +17,14 @@ void backcrosses(chr * tmp, double * mutations, int lv, int nv, int Lv, double k
 	double * bcs_sz2 = new double [nb_bc];
 	int i, loc, k;
 	double d, sz2, w, bcs_mean, bcs_var;
-	
+	vector<int> loci;
+
+	for (loc=0; loc < nbSv; loc++)
+	{
+		loci.push_back(loc);
+	}
+
+
 	for (i = 0; i < (nb_bc); i++)
 	{
 		bcs[i].sel.resize(lv);	
@@ -26,23 +33,21 @@ void backcrosses(chr * tmp, double * mutations, int lv, int nv, int Lv, double k
 	
 	for (i = 0; i < nb_bc; i++)
 	{
+		loci = shuffle(loci);
+		
 
 		// create recombined gametes produced by F1 individuals
-		if (withrec)
-			rec(bcs[i], tmp[1], tmp[twoND - 1], Lv, lv);
-		else
-			freerec(bcs[i], tmp[1], tmp[twoND - 1], lv);
 		
 		sz2 = 0;
 
 		for (k = 0; k < nv; k++)  // phenotypes of the individual
 		{
 			d = 0;
-			for (loc = 0; loc < lv; loc++)
+			for (loc = 0; loc < (lv / 2); loc++)
 			{
-			//	cout << bcs[i].sel[loc];
-				if (bcs[i].sel[loc] == 1)
-					d += mutations[lv * k + loc];
+				loc1 = loci[loc];
+				cout << bcs[i].sel[loc];
+				d += mutations[lv * k + loci[loc1]];
 			}
 			
 			sz2 += d * d;
@@ -50,7 +55,7 @@ void backcrosses(chr * tmp, double * mutations, int lv, int nv, int Lv, double k
 		
 		bcs_sz2[i] = sz2;
 		bcs_mean += sz2;
-		//cout << " breakdown ind " << i << " is " << sz2 << "\n";
+		cout << " breakdown ind " << i << " is " << sz2 << "\n";
 	}
 	
 	bcs_mean /= nb_bc;

@@ -1,0 +1,38 @@
+#!/bin/bash
+# generic submission file to configure for SGE
+# Beginning of SGE Options (all options begin with '#$')
+# Define shell to use for this job (/bin/sh here)
+#$ -S /bin/sh
+# Job name
+#$ -N cv_repBG93
+# Using current working directory (otherwise, you will have to use '#$ wd /path/to/run')
+#$ -cwd
+# job time limits (h_rt is required [s_rt == software time limit / h_rt == hardware time limit])
+# time limit on small.q is 10:00:00
+#$ -l h_rt=10:00:00
+# choose to run on a specific queue
+# (qconf -sql (to list queues) qconf -sq queue_name (to print informations on this queue))
+#$ -q small.q
+# Redirects the standard output to the named file.
+#$ -o cv_repBG93.out
+# merge standard and error outputs
+#$ -j y
+# Export all my environment variables into job runtime context
+#$ -V
+# other interesting options : -t n (for n tasks array), -sync y (to wait until job is finished),
+# -v PATH (to export only PATH variable))
+# ...
+## for more informations "man qsub"
+
+rm out.txt
+for i in 1 2 5 10 20 50 100 1000
+do
+echo "D N m l L k a n t pas" > parametres.txt
+echo "" >> parametres.txt
+echo "* 8 200 0.4 10 -1 2 1 $i 100 10" >> parametres.txt
+for j in {1..10}
+do
+printf "$i," >> out.txt
+singularity exec /home/hschneemann/ubuntu_Hdf5_Boost.simg ./a.out parametres.txt >> out.txt
+done
+done

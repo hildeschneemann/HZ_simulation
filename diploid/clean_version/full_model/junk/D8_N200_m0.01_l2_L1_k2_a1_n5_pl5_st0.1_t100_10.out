@@ -1,0 +1,16 @@
+0	0	0.00700176
+0	1	-0.00700176
+2	0	-0.0252778
+2	1	0.0252778
+4	0	0.025557
+4	1	-0.025557
+6	0	-0.00417624
+6	1	0.00417624
+8	0	-0.0375296
+8	1	0.0375296
+round: 0	nbSign: 0	last?: 0	accGen: 0
+round: 1	nbSign: 0	last?: 0	accGen: 100
+round: 2	nbSign: 3	last?: 0	accGen: 200
+round: 3	nbSign: 9	last?: 0	accGen: 300
+round: 4	nbSign: 13	last?: 1	accGen: 400
+100 generations ont pris2secondes
