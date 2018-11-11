@@ -1,0 +1,11 @@
+0	p2: 2	p12: 0	HI: 1	fitness: 1
+1	p2: 1	p12: 0	HI: 0.5	fitness: 0.606531
+2	p2: 1	p12: 1	HI: 0.75	fitness: 0.687289
+3	p2: 0	p12: 0	HI: 0	fitness: 1
+4	p2: 0	p12: 1	HI: 0.25	fitness: 0.687289
+5	p2: 0	p12: 2	HI: 0.5	fitness: 0.606531
+round: 0	nbSign: 0	last?: 0	accGen: 0
+round: 1	nbSign: 3	last?: 0	accGen: 2000
+round: 2	nbSign: 10	last?: 0	accGen: 4000
+round: 3	nbSign: 16	last?: 1	accGen: 6000
+2000 generations ont pris560secondes

@@ -10,7 +10,7 @@
 using namespace std;
 
 #define MAXGEN 100000
-#define BURNIN 200
+#define BURNIN 1000
 #define SIGNCHANGES 100
 
 
@@ -73,7 +73,7 @@ void recursion(	int Dv, int Nv, double mv,
 	int bv = Dv / 2;
 	int ND1 = twoN * bv;
 	bool sign = true;
-	bool equi = true;
+	bool equi = false;
 	bool last = 0;
 	int nbSign = 0;
 	withrec = Lv == -1 ? false : true;
@@ -165,7 +165,7 @@ void recursion(	int Dv, int Nv, double mv,
 
 	
    
-	backcrosses(temp, mutations, lv, nv, Lv, kd2, av, twoND, nb4, withrec);
+	//backcrosses(temp, mutations, lv, nv, Lv, kd2, av, twoND, nb4, withrec);
 	
     // generations:
 	while(equi == false & accGen < MAXGEN)

@@ -1,0 +1,60 @@
+0	p2: 8	p12: 0	HI: 1	fitness: 1
+1	p2: 7	p12: 0	HI: 0.875	fitness: 0.909405
+2	p2: 7	p12: 1	HI: 0.9375	fitness: 0.916601
+3	p2: 6	p12: 0	HI: 0.75	fitness: 0.906451
+4	p2: 6	p12: 1	HI: 0.8125	fitness: 0.908854
+5	p2: 6	p12: 2	HI: 0.875	fitness: 0.913871
+6	p2: 5	p12: 0	HI: 0.625	fitness: 0.905202
+7	p2: 5	p12: 1	HI: 0.6875	fitness: 0.906568
+8	p2: 5	p12: 2	HI: 0.75	fitness: 0.908682
+9	p2: 5	p12: 3	HI: 0.8125	fitness: 0.912715
+10	p2: 4	p12: 0	HI: 0.5	fitness: 0.904837
+11	p2: 4	p12: 1	HI: 0.5625	fitness: 0.905691
+12	p2: 4	p12: 2	HI: 0.625	fitness: 0.906934
+13	p2: 4	p12: 3	HI: 0.6875	fitness: 0.908854
+14	p2: 4	p12: 4	HI: 0.75	fitness: 0.912378
+15	p2: 3	p12: 0	HI: 0.375	fitness: 0.905202
+16	p2: 3	p12: 1	HI: 0.4375	fitness: 0.905691
+17	p2: 3	p12: 2	HI: 0.5	fitness: 0.906451
+18	p2: 3	p12: 3	HI: 0.5625	fitness: 0.9076
+19	p2: 3	p12: 4	HI: 0.625	fitness: 0.909405
+20	p2: 3	p12: 5	HI: 0.6875	fitness: 0.912715
+21	p2: 2	p12: 0	HI: 0.25	fitness: 0.906451
+22	p2: 2	p12: 1	HI: 0.3125	fitness: 0.906568
+23	p2: 2	p12: 2	HI: 0.375	fitness: 0.906934
+24	p2: 2	p12: 3	HI: 0.4375	fitness: 0.9076
+25	p2: 2	p12: 4	HI: 0.5	fitness: 0.908682
+26	p2: 2	p12: 5	HI: 0.5625	fitness: 0.910461
+27	p2: 2	p12: 6	HI: 0.625	fitness: 0.913871
+28	p2: 1	p12: 0	HI: 0.125	fitness: 0.909405
+29	p2: 1	p12: 1	HI: 0.1875	fitness: 0.908854
+30	p2: 1	p12: 2	HI: 0.25	fitness: 0.908682
+31	p2: 1	p12: 3	HI: 0.3125	fitness: 0.908854
+32	p2: 1	p12: 4	HI: 0.375	fitness: 0.909405
+33	p2: 1	p12: 5	HI: 0.4375	fitness: 0.910461
+34	p2: 1	p12: 6	HI: 0.5	fitness: 0.912378
+35	p2: 1	p12: 7	HI: 0.5625	fitness: 0.916601
+36	p2: 0	p12: 0	HI: 0	fitness: 1
+37	p2: 0	p12: 1	HI: 0.0625	fitness: 0.916601
+38	p2: 0	p12: 2	HI: 0.125	fitness: 0.913871
+39	p2: 0	p12: 3	HI: 0.1875	fitness: 0.912715
+40	p2: 0	p12: 4	HI: 0.25	fitness: 0.912378
+41	p2: 0	p12: 5	HI: 0.3125	fitness: 0.912715
+42	p2: 0	p12: 6	HI: 0.375	fitness: 0.913871
+43	p2: 0	p12: 7	HI: 0.4375	fitness: 0.916601
+44	p2: 0	p12: 8	HI: 0.5	fitness: 1
+round: 0	nbSign: 0	last?: 0	accGen: 0
+round: 1	nbSign: 2	last?: 0	accGen: 1000
+round: 2	nbSign: 5	last?: 0	accGen: 2000
+round: 3	nbSign: 8	last?: 0	accGen: 3000
+round: 4	nbSign: 18	last?: 0	accGen: 4000
+round: 5	nbSign: 28	last?: 0	accGen: 5000
+round: 6	nbSign: 38	last?: 0	accGen: 6000
+round: 7	nbSign: 48	last?: 0	accGen: 7000
+round: 8	nbSign: 58	last?: 0	accGen: 8000
+round: 9	nbSign: 68	last?: 0	accGen: 9000
+round: 10	nbSign: 78	last?: 0	accGen: 10000
+round: 11	nbSign: 88	last?: 0	accGen: 11000
+round: 12	nbSign: 98	last?: 0	accGen: 12000
+round: 13	nbSign: 108	last?: 1	accGen: 13000
+1000 generations ont pris7801secondes

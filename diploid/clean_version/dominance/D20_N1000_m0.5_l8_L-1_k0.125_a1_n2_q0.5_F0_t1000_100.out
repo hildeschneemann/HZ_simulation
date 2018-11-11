@@ -1,0 +1,4 @@
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::domain_error> >'
+  what():  Error in function boost::math::beta_distribution<double>::beta_distribution: Alpha argument is -0, but must be > 0 !
+going into dominance generation
+/opt/gridengine/default/spool/compute-0-14/job_scripts/5341219: line 28: 17455 Aborted                 (core dumped) singularity exec /home/hschneemann/ubuntu_Hdf5_Boost.simg ./a.out paramfiles/param_D20_N1000_m0.5_l8_L-1_k0.125_a1_n2_q0.5_F0_t1000_100.txt

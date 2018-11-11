@@ -1,0 +1,18 @@
+#include <iostream>
+#include <algorithm>
+#include <boost/math/distributions/beta.hpp>
+#include <boost/math/distributions.hpp>
+#include <boost/random.hpp>
+#include <cmath>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main()
+{
+    	boost::math::beta_distribution<> dist(2,2);
+	double rfd = quantile(dist, 0.5);
+	cout << "Hello World!" << rdf << endl;
+	return 0;
+}
