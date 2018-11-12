@@ -206,7 +206,7 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 	for (i = 0; i < nv; i++)
 	{
 		nb = nbSv * i;
-		brownian_bridge(Brown, nbSv+1);
+		brownian_bridge(Brown, nbSv+1, nv);
 		for (j = 0; j < nbSv; j++)
 		{
 		//	cout << "ok before mut?\n";
@@ -215,8 +215,8 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 		}
 	}
     // generations:
-	 while(equi == false & accGen < 100000)
-	 {
+	// while(equi == false & accGen < 100000)
+	 //{
 
 		for (gen = 0; gen < NbGen; gen++)
 		{
@@ -477,7 +477,7 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 		
 		round += 1;
 
-	} // end while loop
+//	} // end while loop
 	
 	
 

@@ -138,4 +138,25 @@
 5	-0.563052
 6	-0.663468
 7	0
-00000000
+00000000/opt/gridengine/default/spool/compute-0-32/job_scripts/5341613: line 28: 40601 Segmentation fault      (core dumped) singularity exec /home/hschneemann/ubuntu_Hdf5_Boost.simg ./a.out param_d20_N1000_mig0.1_b10_n2_m_2_sig0.1_a1_diff2_Q2_U0.1_nbS8_L-1_Ts20000_0_0_200.txt
+/opt/gridengine/default/spool/compute-0-32/job_scripts/5341614: line 28: 40724 Segmentation fault      (core dumped) singularity exec /home/hschneemann/ubuntu_Hdf5_Boost.simg ./a.out param_d20_N1000_mig0.1_b10_n2_m_2_sig0.1_a1_diff2_Q2_U0.1_nbS8_L-1_Ts20000_0_0_200.txt
+/opt/gridengine/default/spool/compute-0-32/job_scripts/5341615: line 28: 40841 Segmentation fault      (core dumped) singularity exec /home/hschneemann/ubuntu_Hdf5_Boost.simg ./a.out param_d20_N1000_mig0.1_b10_n2_m2_sig0.1_a1_diff2_Q2_U0.1_nbS8_L-1_Ts20000_0_0_200.txt
+/opt/gridengine/default/spool/compute-0-32/job_scripts/5341616: line 28: 40956 Segmentation fault      (core dumped) singularity exec /home/hschneemann/ubuntu_Hdf5_Boost.simg ./a.out paramfiles/param_d20_N1000_mig0.1_b10_n2_m2_sig0.1_a1_diff2_Q2_U0.1_nbS8_L-1_Ts20000_0_0_200.txt
+dimension	locus	mutational effect
+0	0	-0.0163592
+0	1	0.00917143
+0	2	-0.00932465
+0	3	0.0170971
+0	4	-0.00446286
+0	5	-0.0112372
+0	6	-0.0289771
+0	7	0.0440925
+8	0	-0.0278819
+8	1	0.0148836
+8	2	0.00598047
+8	3	0.00363568
+8	4	-0.00415477
+8	5	0.014941
+8	6	-0.0136633
+8	7	0.00625917
+20000 generations ont pris 4982 secondes

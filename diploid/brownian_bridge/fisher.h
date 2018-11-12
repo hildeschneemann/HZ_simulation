@@ -51,5 +51,5 @@ void writeAttributeHDF5(H5::H5File &file, H5::DataSet &dataset,
     const char *ATTR_NAME, int attr_data);
 void writeAttributeHDF5(H5::H5File &file, H5::DataSet &dataset,
         const char *ATTR_NAME, double attr_data);
-void brownian_bridge(double * Brown, int nbSv);
+void brownian_bridge(double * Brown, int nbSv, int nv);
 #endif

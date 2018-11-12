@@ -444,7 +444,7 @@ void recursion(	int Dv, int Nv, double mv,
 
 	fin = time(0);
 	int temps = int(difftime(fin, debut));
-	//cout << tv << " generations ont pris" << temps << "secondes\n";
+	cout << tv << " generations ont pris" << temps << "secondes\n";
 
 
 	

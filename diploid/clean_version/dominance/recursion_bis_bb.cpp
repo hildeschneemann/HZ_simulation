@@ -11,7 +11,7 @@
 using namespace std;
 
 #define MAXGEN 100000
-#define BURNIN 200
+#define BURNIN 1000
 #define SIGNCHANGES 100
 
 
@@ -101,7 +101,7 @@ void recursion(	int Dv, int Nv, double mv,
 	stringstream nameF;
 	nameF << "res_D" << Dv << "_N" << Nv << "_m" << mv << 
 		"_l" << lv << "_L" << Lv << 
-		"_k" << kv << "_a" << av << "_n" << nv <<
+		"_k" << kv << "_a" << av << "_n" << nv << "_F" << Fv << "_q" << qv <<
 		"_t" << tv << ".txt";
 	nameF >> fileName;
 
@@ -109,7 +109,7 @@ void recursion(	int Dv, int Nv, double mv,
 	stringstream nameF2;
 	nameF2 << "mutEff_D" << Dv << "_N" << Nv << "_m" << mv << 
 		"_l" << lv << "_L" << Lv << 
-		"_k" << kv << "_a" << av << "_n" << nv <<
+		"_k" << kv << "_a" << av << "_n" << nv << "_F" << Fv << "_q" << qv <<
 		"_t" << tv << ".txt";
 	nameF2 >> fileName2;
 
@@ -180,7 +180,6 @@ void recursion(	int Dv, int Nv, double mv,
 	}
 
 	//initiate delta
-	cout << "F: " << Fv;
 	if (Fv == 0)
 	{
 		for (i = 0; i < lv; i++)

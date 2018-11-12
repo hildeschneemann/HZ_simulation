@@ -10,7 +10,7 @@
 using namespace std;
 
 #define MAXGEN 100000
-#define BURNIN 200
+#define BURNIN 1000
 #define SIGNCHANGES 100
 
 

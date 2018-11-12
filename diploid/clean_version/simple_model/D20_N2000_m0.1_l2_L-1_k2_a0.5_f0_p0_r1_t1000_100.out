@@ -1,0 +1,28 @@
+0	p2: 2	p12: 0	HI: 1	fitness: 1
+1	p2: 1	p12: 0	HI: 0.5	fitness: 0.606531
+2	p2: 1	p12: 1	HI: 0.75	fitness: 0.882497
+3	p2: 0	p12: 0	HI: 0	fitness: 1
+4	p2: 0	p12: 1	HI: 0.25	fitness: 0.882497
+5	p2: 0	p12: 2	HI: 0.5	fitness: 1
+round: 0	nbSign: 0	last?: 0	accGen: 0
+round: 1	nbSign: 5	last?: 0	accGen: 1000
+round: 2	nbSign: 9	last?: 0	accGen: 2000
+round: 3	nbSign: 16	last?: 0	accGen: 3000
+round: 4	nbSign: 22	last?: 0	accGen: 4000
+round: 5	nbSign: 25	last?: 0	accGen: 5000
+round: 6	nbSign: 30	last?: 0	accGen: 6000
+round: 7	nbSign: 37	last?: 0	accGen: 7000
+round: 8	nbSign: 42	last?: 0	accGen: 8000
+round: 9	nbSign: 44	last?: 0	accGen: 9000
+round: 10	nbSign: 47	last?: 0	accGen: 10000
+round: 11	nbSign: 54	last?: 0	accGen: 11000
+round: 12	nbSign: 59	last?: 0	accGen: 12000
+round: 13	nbSign: 63	last?: 0	accGen: 13000
+round: 14	nbSign: 69	last?: 0	accGen: 14000
+round: 15	nbSign: 75	last?: 0	accGen: 15000
+round: 16	nbSign: 82	last?: 0	accGen: 16000
+round: 17	nbSign: 86	last?: 0	accGen: 17000
+round: 18	nbSign: 91	last?: 0	accGen: 18000
+round: 19	nbSign: 97	last?: 0	accGen: 19000
+round: 20	nbSign: 101	last?: 1	accGen: 20000
+1000 generations ont pris14989secondes
