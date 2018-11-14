@@ -25,13 +25,26 @@ double getfitness(double d, double kd2, double a)
 	return(exp(-a * pow(sz2,kd2)));
 }
 
-double getdominance(double alpha, double beta, int length)
+double getdominance(double qv, double Fv)
 {
-    boost::math::beta_distribution<double> betadist(alpha, beta);
-    for (int i = 0; i < length; ++i)
-    {
-        return quantile(betadist, rnd.rand());
-    }
+    if (Fv == 0)
+		return(qv);
+		
+	if (Fv == 1)
+		return(rnd.rand() < qv ? 1 : 0);
+	
+	if (Fv == -1)
+		return(rnd.rand());
+	
+	if(Fv > 0 & Fv < 1)
+	{
+		double alpha = qv * (1.0-Fv)/Fv;
+		double beta = (1.0-Fv)*(1.0-qv)/Fv;
+		boost::math::beta_distribution<double> betadist(alpha, beta);
+		return(quantile(betadist, rnd.rand()));
+	}
+   
+    exit(0);   
 }
 
 /*----------------------------------------------------------
@@ -158,15 +171,10 @@ void recursion(	int Dv, int Nv, double mv,
 			temp[i].sel.flip();
 		}
     }	
-	fout2.open(fileName2);	
 	
-	
-	//create mutational effects matrix and dominance matrix
-	//for (i = 0; i < (lv * nv); i++)
-	//	mutations[i] = 0;
 
-	
-	
+	fout2.open(fileName2);	
+	//create mutational effects matrix and dominance matrix
 	for (i = 0; i < nv; i++)
 	{
 		nb = lv * i;
@@ -175,46 +183,12 @@ void recursion(	int Dv, int Nv, double mv,
 		{
 		//	cout << "ok before mut?\n";
 			mutations[nb + j] = Brown[j+1] - Brown[j];
-			fout2 << nb << "\t" << j << "\t" << mutations[nb + j] << "\n";
+			delta[nb + j] = getdominance(qv,Fv);
+			fout2 << nb << "\t" << j << "\t" << mutations[nb + j] << "\t" << delta[nb + j] << "\n";
 		}
 	}
 
-	//initiate delta
-	if (Fv == 0)
-	{
-		for (i = 0; i < lv; i++)
-		{
-			delta[i] = 0.5;
-		}
-	}
-	else if (Fv == 1)
-	{
-		for (i =0; i < (lv * nv); i++)
-		{
-			delta[i] = rnd.rand() < 0.5 ? 0 : 1;
-		}
-	}
-	else if (Fv == -1)
-	{
-		delta[i] = rnd.rand();
-	}
-	else if (Fv > 0 & Fv < 1)
-	{
-		alpha = qv * (Fv - 1)/Fv;
-		beta = (Fv - 1)*(qv - 1)/Fv;
-		for (k =0; k < nv; k++)
-		{
-			nb = k * lv;
-			for (i = 0; i < lv; i++)
-			{
-				delta[nb + i] = getdominance(alpha, beta, lv);
-			}
-		}
-	}
-
-	
-	
-
+	fout2.close();
 	//backcrosses(temp, mutations, lv, nv, Lv, kd2, av, twoND, nb4, withrec);
 	
     // generations:
@@ -265,7 +239,7 @@ void recursion(	int Dv, int Nv, double mv,
 						{
 							if (pop[nb2].sel[loc] == 1 & pop[nb2+1].sel[loc] == 1)
 								d += mutations[lv * k + loc];
-							else if(pop[nb2+1].sel[loc] == 1 || pop[nb2+1].sel[loc] == 1)
+							else if(pop[nb2].sel[loc] == 1 || pop[nb2+1].sel[loc] == 1)
 								d += mutations[lv *k + loc] * delta[lv * k + loc];
 						}
 			

@@ -25,13 +25,14 @@ struct chr
 // Function prototypes:
 
 void ouvrirFichierE(char * param);
+void ouvrierFichierM(char * muteff);
 void ouvrirFichierS();
 void ecrireParametres(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv, double av, double diffv, double Qv, double Uv, int nbSv, double Lv,
                       int T1v, int T2v, int T3v, int pasv);
 bool lireFichier(int &dr, int &Nr, double &migr, int &br, int &nr, int &mr, double &sigr, double &ar, double &diffr, double &Qr, double &Ur, int &nbSr, double &Lr,
                  int &T1r, int &T2r, int &T3r, int &pasr);
 void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv, double av, double diffv, double Qv, double Uv, int nbSv, double Lv,
-               int T1v, int T2v, int T3v, int pasv, int nov);
+               int T1v, int T2v, int T3v, int pasv, int nov, bool newmut);
 double gammln(const double xx);
 double poisdev(const double xm);
 double gasdev();

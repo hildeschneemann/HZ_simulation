@@ -12,8 +12,18 @@ using namespace std;
 
 extern FILE * fichierE;
 extern FILE * fichierS;
+extern FILE * fichierM;
 extern MTRand rnd;
+//extern bool * newmut;
 
+double readmut(int i, int j)
+{
+	double mut = 0.0;
+	fscanf(fichierM, "%lf", &mut);
+	fscanf(fichierM, "%lf", &mut);
+	fscanf(fichierM, "%lf", &mut);
+	return(mut);
+}
 
 /*----------------------------------------------------------
 Function recursion: simulates a 1D stepping-stone, with a barrier
@@ -41,7 +51,7 @@ Lv: genome map length (mean nb of cross-overs per meiosis)
 
 
 void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv, double av, double diffv, double Qv, double Uv, int nbSv, double Lv,
-			   int T1v, int T2v, int T3v, int pasv, int nov)
+			   int T1v, int T2v, int T3v, int pasv, int nov, bool newmut)
 {
 	// variables:
 
@@ -209,11 +219,15 @@ void recursion(int dv, int Nv, double migv, int bv, int nv, int mv, double sigv,
 		brownian_bridge(Brown, nbSv+1, nv);
 		for (j = 0; j < nbSv; j++)
 		{
-		//	cout << "ok before mut?\n";
-			mutations[nb + j] = sigv * (Brown[j+1] - Brown[j]);
+			if (newmut == true)
+				mutations[nb + j] = Brown[j+1] - Brown[j];
+			else
+				mutations[nb + j] = readmut(i, j);
+		
 			cout << nb << "\t" << j << "\t" << mutations[nb + j] << "\n";
 		}
 	}
+
     // generations:
 	// while(equi == false & accGen < 100000)
 	 //{

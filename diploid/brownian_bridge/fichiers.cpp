@@ -9,12 +9,19 @@ using namespace std;
 
 extern FILE * fichierE;
 extern FILE * fichierS;
+extern FILE * fichierM;
 
 // opens input file:
 
 void ouvrirFichierE(char * param)    
 {						 
 	fichierE = fopen(param,"r");
+}
+
+//open input file with mutational effects and dominance values
+void ouvrierFichierM(char * muteff)
+{
+	fichierM = fopen(muteff, "r");
 }
 
 

@@ -170,3 +170,45 @@ During startup - Warning messages:
 7: Setting LC_MEASUREMENT failed, using "C" 
 [1] "Are you working Rscript?"
 HTML file created at: animation.html
+dimension	locus	mutational effect
+0	0	0.219877
+0	1	0.16784
+0	2	-0.117611
+0	3	-0.277551
+0	4	0.0286127
+0	5	0.0905884
+0	6	-0.135828
+0	7	0.0240714
+8	0	0.144196
+8	1	-0.0297963
+8	2	-0.0226552
+8	3	-0.0057472
+8	4	-0.0486143
+8	5	-0.359435
+8	6	0.0575575
+8	7	0.264495
+20000 generations ont pris 4905 secondes
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+HTML file created at: animation.html
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+6: Setting LC_PAPER failed, using "C" 
+7: Setting LC_MEASUREMENT failed, using "C" 
+[1] "Are you working Rscript?"
+Error: Aesthetics must be either length 1 or the same as the data (2020): x, y
+Execution halted
+/opt/gridengine/default/spool/compute-0-14/job_scripts/5342056: line 28: 37118 Segmentation fault      (core dumped) singularity exec /home/hschneemann/ubuntu_Hdf5_Boost.simg ./a.out paramfiles/param_d20_N1000_mig0.1_b10_n2_m2_sig0.1_a1_diff2_Q2_U0.1_nbS8_L-1_Ts100_0_0_10.txt
+/opt/gridengine/default/spool/compute-0-14/job_scripts/5342057: line 28: 37486 Segmentation fault      (core dumped) singularity exec /home/hschneemann/ubuntu_Hdf5_Boost.simg ./a.out paramfiles/param_d20_N1000_mig0.1_b10_n2_m2_sig0.1_a1_diff2_Q2_U0.1_nbS8_L-1_Ts100_0_0_10.txt
+Rscript execution error: No such file or directory

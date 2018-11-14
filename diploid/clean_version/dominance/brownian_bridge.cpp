@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include "MersenneTwister.h"
+#include "fisher.h"
 using namespace std;
 
 extern MTRand rnd;
@@ -8,7 +9,6 @@ extern MTRand rnd;
 void brownian_bridge(double * Brown, int lv, int nv)
 {
 	int i =0;
-	double gasdev();
 	double ii =1.0;
 	double * times = new double [lv];
 	double * distW = new double [lv];
