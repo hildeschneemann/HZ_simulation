@@ -14,11 +14,11 @@ using namespace std;
 extern FILE * fichierE;
 extern MTRand rnd;
 
-double getfitness(double HI, int p12, int lv, double kd2, double a, double f, double p, double r)
+double getfitness(double HI, int p12, int lv, double kd2, double a, double f, double fp1, double fp2, double r)
 {
 	double sz2;
 	double p12prop = double(p12) / double(lv);
-	sz2 = p + (4.0 - 2.0*p)*HI*(1.0-HI)+(f-1.0)*p12prop+(f-1.0-r)*p12prop*(1.0-p12prop);
+	sz2 = fp1 + (4.0 - 2.0*fp1)*HI*(1.0 - ((4 - fp1 - fp2)/(4 - 2*fp1))*HI) + (f - 1.0)*p12prop+(f - 1.0 - r)*p12prop*(1.0 - p12prop);
 	return(exp(-a * pow(sz2,kd2)));
 }
 
@@ -53,7 +53,7 @@ tv: #gens between recording points
 ----------------------------------------------------------*/
 void recursion(	int Dv, int Nv, double mv, 
 				int lv, double Lv,
-				double kv, double av, double fv, double pv, double rv,
+				double kv, double av, double fv, double fp1v, double fp2v, double rv,
 				int Rv, int tv, int repv)
 
 {
@@ -87,7 +87,7 @@ void recursion(	int Dv, int Nv, double mv,
 	stringstream nameF;
 	nameF << "res_D" << Dv << "_N" << Nv << "_m" << mv << 
 		"_l" << lv << "_L" << Lv << 
-		"_k" << kv << "_a" << av << "_f" << fv << "_p" << pv << "_r" << rv << "_rep" << repv << ".txt";
+		"_k" << kv << "_a" << av << "_f" << fv << "_fp1" << fp1v << "_fp2" << fp2v << "_r" << rv << "_rep" << repv << ".txt";
 	nameF >> fileName;
 
     chr * pop = new chr [twoND];
@@ -132,7 +132,7 @@ void recursion(	int Dv, int Nv, double mv,
 			p12 = j;
 			HI = (p2 + p12 / 2.0) / lv;
 			indexW = getfitness_index(p2, p12, lv);
-			Wtable[indexW] = getfitness(HI, p12, lv, kd2, av,  fv,  pv, rv);
+			Wtable[indexW] = getfitness(HI, p12, lv, kd2, av,  fv,  fp1v, fp2v, rv);
 			//cout << indexW << "\tp2: " << p2 << "\tp12: " << p12 << "\tHI: " << HI << "\tfitness: " << Wtable[indexW] << "\n";
 			//indexW += 1;
 		}

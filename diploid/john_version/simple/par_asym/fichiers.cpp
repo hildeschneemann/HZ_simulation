@@ -8,7 +8,6 @@
 using namespace std;
 
 extern FILE * fichierE;
-extern FILE * fichierM;
 
 // opens input file:
 void ouvrirFichierE(char * param)    
@@ -16,18 +15,12 @@ void ouvrirFichierE(char * param)
 	fichierE = fopen(param,"r");
 }
 
-//open input file with mutational effects and dominance values
-void ouvrirFichierM(char * muteff)
-{
-        fichierM = fopen(muteff, "r");
-}
-
 
 // reads parameter values from input file,
 // returns 1 if end of input file, else returns 0
 bool lireFichier(int & Dr, int & Nr, double & mr, 
 				int & lr, double & Lr,
-				double & kr, double & ar, int & nr, double & Fr, double & qr,
+				double & kr, double & ar, double & fr, double & fp1r, double & fp2r, double & rr,
 				int & Rr, int & tr, int & repsr)
 {					 
 	int x;
@@ -47,10 +40,11 @@ bool lireFichier(int & Dr, int & Nr, double & mr,
 		
 		fscanf(fichierE,"%lf ",&kr);
 		fscanf(fichierE,"%lf ",&ar);
-		fscanf(fichierE,"%d ",&nr);
-		fscanf(fichierE,"%lf ",&Fr);
-		fscanf(fichierE,"%lf ",&qr);		
-
+		fscanf(fichierE,"%lf ",&fr);
+		fscanf(fichierE,"%lf ",&fp1r);
+		fscanf(fichierE,"%lf ",&fp2r);
+		fscanf(fichierE,"%lf ",&rr);
+		
 		fscanf(fichierE,"%d ",&Rr);
 		fscanf(fichierE,"%d ",&tr);
 		fscanf(fichierE,"%d ",&repsr);
