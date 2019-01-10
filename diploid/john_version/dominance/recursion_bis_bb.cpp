@@ -16,13 +16,14 @@ extern FILE * fichierE;
 extern FILE * fichierM;
 extern MTRand rnd;
 
-double readmut(int i, int j)
+double readmut(double * mutations, int j)
 {
         double mut = 0.0;
         fscanf(fichierM, "%lf", &mut);
         fscanf(fichierM, "%lf", &mut);
+        fscanf(fichierM, "%lf", &mutations[j]);
         fscanf(fichierM, "%lf", &mut);
-        return(mut);
+        cout << "muteff: " << mutations[j] << "\n";
 }
 
 double getfitness(double sz2, double kd2, double a)
@@ -175,7 +176,7 @@ void recursion(	int Dv, int Nv, double mv,
 			if(newmut == true)
 				mutations[nb + j] = Brown[j+1] - Brown[j];
 			else
-				mutations[nb + j] = readmut(i, j);
+				readmut(mutations, (nb +j));
 			
 			delta[nb + j] = getdominance(qv,Fv);
 			fout2 << i << "\t" << j << "\t" << mutations[nb + j]  << "\t" << delta[nb + j] << "\n";
@@ -357,4 +358,5 @@ void recursion(	int Dv, int Nv, double mv,
 	delete [] temp;
 	delete [] Wtot;
     delete [] Wmax;
+
 }

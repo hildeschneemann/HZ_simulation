@@ -58,6 +58,6 @@ int main(int argc, char * argv[])
 
 	// closes files:
 	fclose(fichierE);
-	fclose(fichierM);
+	//fclose(fichierM);
 	return 0 ;
 }
